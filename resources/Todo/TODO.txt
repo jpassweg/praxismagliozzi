@@ -1,0 +1,55 @@
+NEUI WEBSITE
+- Text ifüege (achtung umlaut)
+- uf iPhone sich keine fehler, img 100% width
+- au bilder bim scrolle ufeloh cho (animation)
+- bilder ifüege au e section mache für die wo no chömme (praxisbilder)
+
+FÜR JONAS PASSWEG
+- Google photos alti nümm share defür neui
+- grossi unicolor flächene -> au nommol Sandro froge was er derzue meint
+- hosting sueche und mit Sandro ufstelle
+- möglichi witeri froge für text: wieso gern job mache, was macht er speziell guet, gern
+- spezifische text für klini sache
+- akkes uffülle
+- bilder verklinere, max 4k bildschirm
+- de kund muess shosting bsitze!
+- öffnigszite und wenn telephonisch erreichbar (au in footnote)
+- lebenslauf abkürze und zum ufklappbar
+- domain kaufe
+alti website
+- DONE make printable -> print button -> is already printable due to small screen adaptation
+- apache ufsetze zum mit .htaccess schöni urls anezkriege
+    (https://www.maketecheasier.com/setup-local-web-server-all-platforms/)
+    (http://www.desiquintans.com/cleanurls)
+- DONE text verbessere
+- SEO Yoast kopiere
+    https://support.google.com/webmasters/answer/7451184?hl=en
+        at title: What are the merits of description meta tags?
+    https://support.google.com/webmasters/answer/9012289
+    https://www.youtube.com/watch?v=MOfhHPp5sWs
+    https://webmasters.googleblog.com/2007/09/improve-snippets-with-meta-description.html
+    https://webmasters.googleblog.com/2017/06/better-snippets-for-your-users.html
+    https://support.google.com/webmasters/answer/35624
+    https://support.google.com/webmasters/answer/70897
+    https://support.google.com/webmasters/answer/156184
+    https://www.google.com/webmasters/#?modal_active=none
+    https://support.google.com/webmasters/answer/35769
+- DONE profil/foti dritue
+- DONE (pretty much done) maps embed with api key
+- Look at other webpages:
+    https://psychiatrischepraxisimseefeld.ch/
+    https://www.clienia.ch/de/standorte/standorte-ambulant/zuerich/dietikon
+    http://www.psychiatrie-zh.ch/
+    http://praxisamstauffacher.ch/
+    https://www.psychiatrie-praxis.ch/
+    https://www.praxis-am-stauffacher.ch/
+    http://psychcentral.ch/
+    http://praxis-hottingen.ch/
+    http://www.praxisluther.ch/
+    https://www.praxis-huerlimann.ch/    
+- build sitemap
+- DONE (not needed) scroll when pressing on link instead of jumping
+- DONE Website mit ganzem bild nachem wilkommenstext praxismagliozzi2
+- DONE uf passweg.ch lade zum teste, 
+- test au ande eth computer, ie firefox etc.
+- DONE luege das kei nit-zensierti bilder uf github chömme
