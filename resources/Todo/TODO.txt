@@ -53,3 +53,4 @@ alti website
 - DONE uf passweg.ch lade zum teste, 
 - test au ande eth computer, ie firefox etc.
 - DONE luege das kei nit-zensierti bilder uf github chömme
+- DONE test git
