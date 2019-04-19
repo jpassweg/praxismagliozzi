@@ -25,11 +25,18 @@
     color: #fff !important;
 }
 
-.jumbotron {
-    background-color: #89CFF0;
-    color: #ffffff;
-    padding: 100px 50px;
-    padding-top: 140px;
+.jumbotron{
+  background:
+linear-gradient(
+  rgba(0, 0, 250, 0.25),
+  rgba(125, 250, 250, 0.45)
+),
+url("resources/images/Zoo.jpg");
+background-repeat: no-repeat;
+background-attachment: fixed;
+color:white !important;
+padding: 100px 50px;
+padding-top: 140px;
 }
 
 .bg-img {
