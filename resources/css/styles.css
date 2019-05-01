@@ -25,7 +25,64 @@
   color: #fff !important;
 }
 
-.jumbotron{
+.btn-primary-outline {
+  background-color: transparent !important;
+  border-color: #FFFFFF;
+  border-width: 3px;
+}
+
+.button_smallcontact{
+  background-color: #0087BD; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button_smallcontact1 {
+  background-color: white;
+  color: black;
+  border: 2px solid #0087BD;
+}
+
+.button_smallcontact1:hover {
+  background-color: #0087BD;
+  color: white;
+}
+
+.button_smallcontact2 {
+  background-color: transparent;
+  color: white;
+  border: 2px solid #FFFFFF;
+}
+
+.button_smallcontact2:hover {
+  background-color: #FFFFFF;
+  color: black;
+}
+
+ .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+  }
+
+  .center-button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+.jumbotron1{
   background:
 linear-gradient(
   rgba(95, 66, 224, 0.25),
@@ -33,17 +90,45 @@ linear-gradient(
 ),
 url("https://lh3.googleusercontent.com/bVtAwy-IqKNa0pJFX2Ra1QSaPFaUACiQP-yGFz_nPHJrKMadnm4e6Q7C1CwgcNVRa20LC16x_k3E72JCKzhfgfbxIWV1m5gsQbilfaIbAPNPaqo8rti4jtRarmoDlh6EbO8KcBbbGTdi96iWOqMBpFEWYjce05m5u4Skj9Q43LHxmNUm6EH0oNyJiGXMOkp66vbnM7MNIKQf6hAlzCcy_mpHCgc2eJ8IiBmPhBtnjgBc7YTyXwFoxX9I0dgbxbDax-D3QRE3s1fKtYjnmRWFUoRY6u6Ps0KTJevaBF7zyAzgTAD8sB6Pj3C6mw357YDSbHWZfKs9YvXOXqoyGHtBq7TVkVsG7dkxAR7FqCLVJvFfSExsEqQ4Lp35S0-9Qh6C1O02jtEdENUiTO0_Gb3RUg1MIgz_5iTOdIJrO-cqycR16mLQt6H0QcytEE7FV7ccIhXALIRpbNxgbR0GTf2fbBN8MxkvQg8qFp68ArRzv2TWmQ_BPtFqd2NsQAD1pwJHMK7gFZ53H1q-zfijb5z7LUPSLTuFonuAdADD4Eya-_ykQe6pxhVkmVhU2MVUWfzBFLym9tpQEJQDOq9MPZ411lIaROiTG5R0qNimlWSUC_DDooHGRDiRu9MGGixxvDB-Yhwx5zc8Ap80FW8-E6zBWap6JO1M-Hi2=w1425-h949-no");
 background-repeat: no-repeat;
+background-size: cover;
 background-attachment: fixed;
 color:white !important;
+height: 800px;
+padding: 100px 50px;
+padding-top: 140px;
+}
+
+.jumbotron2{
+  background:
+linear-gradient(
+  rgba(95, 66, 224, 0.25),
+  rgba(0, 255, 255, 0.45)
+),
+url("https://lh3.googleusercontent.com/bVtAwy-IqKNa0pJFX2Ra1QSaPFaUACiQP-yGFz_nPHJrKMadnm4e6Q7C1CwgcNVRa20LC16x_k3E72JCKzhfgfbxIWV1m5gsQbilfaIbAPNPaqo8rti4jtRarmoDlh6EbO8KcBbbGTdi96iWOqMBpFEWYjce05m5u4Skj9Q43LHxmNUm6EH0oNyJiGXMOkp66vbnM7MNIKQf6hAlzCcy_mpHCgc2eJ8IiBmPhBtnjgBc7YTyXwFoxX9I0dgbxbDax-D3QRE3s1fKtYjnmRWFUoRY6u6Ps0KTJevaBF7zyAzgTAD8sB6Pj3C6mw357YDSbHWZfKs9YvXOXqoyGHtBq7TVkVsG7dkxAR7FqCLVJvFfSExsEqQ4Lp35S0-9Qh6C1O02jtEdENUiTO0_Gb3RUg1MIgz_5iTOdIJrO-cqycR16mLQt6H0QcytEE7FV7ccIhXALIRpbNxgbR0GTf2fbBN8MxkvQg8qFp68ArRzv2TWmQ_BPtFqd2NsQAD1pwJHMK7gFZ53H1q-zfijb5z7LUPSLTuFonuAdADD4Eya-_ykQe6pxhVkmVhU2MVUWfzBFLym9tpQEJQDOq9MPZ411lIaROiTG5R0qNimlWSUC_DDooHGRDiRu9MGGixxvDB-Yhwx5zc8Ap80FW8-E6zBWap6JO1M-Hi2=w1425-h949-no");
+background-repeat: no-repeat;
+background-size: cover;
+color:white !important;
+height: 300px;
 padding: 100px 50px;
 padding-top: 140px;
 }
 
 .bg-img {
-  background-image: url("C:\Users\Jonas\Documents\HTML\praxis.jpg");
+  background-image: url("https://lh3.googleusercontent.com/bVtAwy-IqKNa0pJFX2Ra1QSaPFaUACiQP-yGFz_nPHJrKMadnm4e6Q7C1CwgcNVRa20LC16x_k3E72JCKzhfgfbxIWV1m5gsQbilfaIbAPNPaqo8rti4jtRarmoDlh6EbO8KcBbbGTdi96iWOqMBpFEWYjce05m5u4Skj9Q43LHxmNUm6EH0oNyJiGXMOkp66vbnM7MNIKQf6hAlzCcy_mpHCgc2eJ8IiBmPhBtnjgBc7YTyXwFoxX9I0dgbxbDax-D3QRE3s1fKtYjnmRWFUoRY6u6Ps0KTJevaBF7zyAzgTAD8sB6Pj3C6mw357YDSbHWZfKs9YvXOXqoyGHtBq7TVkVsG7dkxAR7FqCLVJvFfSExsEqQ4Lp35S0-9Qh6C1O02jtEdENUiTO0_Gb3RUg1MIgz_5iTOdIJrO-cqycR16mLQt6H0QcytEE7FV7ccIhXALIRpbNxgbR0GTf2fbBN8MxkvQg8qFp68ArRzv2TWmQ_BPtFqd2NsQAD1pwJHMK7gFZ53H1q-zfijb5z7LUPSLTuFonuAdADD4Eya-_ykQe6pxhVkmVhU2MVUWfzBFLym9tpQEJQDOq9MPZ411lIaROiTG5R0qNimlWSUC_DDooHGRDiRu9MGGixxvDB-Yhwx5zc8Ap80FW8-E6zBWap6JO1M-Hi2=w1425-h949-no");
   background-position: center;
   background-size: cover;
+  height: 100%;
 }
+
+.person {
+  border: 10px solid transparent;
+  margin-bottom: 25px;
+  opacity: 0.7;
+}
+.person:hover {
+  border-color: #686868;
+}
+
 
 .bg-grey {
   background-color: #f6f6f6;
@@ -58,6 +143,11 @@ padding-top: 140px;
 .bg-white {
   background-color: #FFFFFF;
   padding: 100px 50px;
+}
+
+.bg-white-small {
+  background-color: #FFFFFF;
+  padding: 20px 50px;
 }
 
 .bg-lb {
