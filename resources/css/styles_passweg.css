@@ -1,0 +1,32 @@
+#about2 {
+    background-image: url("../images/Sandro.jpg");
+    background-color: #cccccc;
+    
+  /* Set a specific height */
+  height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#ausbildung2 {
+  background-image: url("../images/wave.jpeg");
+  background-color: #cccccc;
+  
+/* Set a specific height */
+height: 700px; 
+
+/* Create the parallax scrolling effect */
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+#ausbildung2text {
+  font-size: 15px;
+  color: black;
+}
