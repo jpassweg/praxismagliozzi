@@ -30,3 +30,9 @@ background-size: cover;
   font-size: 15px;
   color: black;
 }
+
+#profilepicture {
+  width:50%;
+  margin:5px;
+  border-radius: 255px;
+}
