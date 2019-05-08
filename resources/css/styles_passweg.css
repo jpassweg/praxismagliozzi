@@ -5,7 +5,6 @@
   background-size: cover;
   background-attachment: fixed;
   color:white;
-  height: 400px;
   padding: 100px 50px;
   margin: 0px;
 }
@@ -73,6 +72,16 @@
 
 #metropicture {
   display: flex;
+  margin: auto;
+  width:80%;
+}
+
+#metropicturesmall {
+  display: none;
+}
+
+#metrotext {
+  display: none;
 }
 
 #ausbildung2 {
@@ -81,8 +90,8 @@
 
   font-weight: bold;
   
-  /* Set a specific height */
-  height: 800px; 
+  /* Set a specific height */ 
+  min-height: 900px;
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -103,4 +112,26 @@
 #footer_praxis {
   background: #0087BD;
   height: 1000px;
+}
+
+@media screen and (max-width: 1500px) {
+  #metropicture {
+    display: none;
+  }
+
+  #metropicturesmall {
+    display: flex;
+    width: 100%;
+  }
+
+  #profilepicture {
+    padding-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  #profilewrapper {
+    display: flex;
+    flex-direction: column;
+  }
 }
