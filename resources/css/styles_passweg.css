@@ -5,7 +5,7 @@
   background-size: cover;
   background-attachment: fixed;
   color:white;
-  height: 300px;
+  height: 400px;
   padding: 100px 50px;
   margin: 0px;
 }
@@ -55,14 +55,34 @@
   height: 400px;
   padding: 100px 50px;
   padding-top: 140px;
+  margin: 0;
 }
 
-#about2 {
-  background-image: url("../images/Sandro.jpg");
+#profilewrapper {
+  display: flex; 
+  align-items: center;
+}
+
+#profilepicture {
+  display: flex;
+  width:100%;
+
+  -webkit-filter: drop-shadow(2px 2px 0 grey) drop-shadow(-2px -2px 0 grey);
+  filter: drop-shadow(2px 2px 0 grey) drop-shadow(-2px -2px 0 grey);    
+}
+
+#metropicture {
+  display: flex;
+}
+
+#ausbildung2 {
+  background-image: url("../images/wave.jpeg");
   background-color: #cccccc;
-    
+
+  font-weight: bold;
+  
   /* Set a specific height */
-  height: 500px; 
+  height: 800px; 
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -71,31 +91,13 @@
   background-size: cover;
 }
 
-#ausbildung2 {
-  background-image: url("../images/wave.jpeg");
-  background-color: #cccccc;
-  
-/* Set a specific height */
-height: 700px; 
-
-/* Create the parallax scrolling effect */
-background-attachment: fixed;
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-}
-
 #ausbildung2text {
   font-size: 15px;
   color: black;
 }
 
-#profilepicture {
-  width:100%;
-
-  -webkit-filter: drop-shadow(2px 2px 0 grey) drop-shadow(-2px -2px 0 grey);
-  filter: drop-shadow(2px 2px 0 grey) drop-shadow(-2px -2px 0 grey);
-     
+#kontakttext {
+  font-size: 20px;
 }
 
 #footer_praxis {
