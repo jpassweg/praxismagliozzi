@@ -31,6 +31,27 @@
   border-width: 3px;
 }
 
+.btn-with-image {
+  background-color: transparent !important;
+  border-style: none;
+  outline: none;
+  box-shadow: none !important;
+}
+
+.btn-with-image:focus{
+  outline: none;
+}
+
+h3.a{
+  font-family: 'Cantata One';
+}
+
+#grad1{
+  color: black;
+  background-color: blue;
+  background-image: linear-gradient(to bottom right, #0087BD, #00FFFF);
+}
+
 .button_smallcontact{
   background-color: #0087BD; /* Green */
   border: none;
@@ -67,6 +88,16 @@
   background-color: #FFFFFF;
   color: black;
 }
+
+.collapse{
+  padding-left: 2px;
+}
+
+.modal{
+  padding-top: 50px;
+}
+
+
 
  .center {
     display: block;
