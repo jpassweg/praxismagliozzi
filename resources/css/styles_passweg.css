@@ -1,3 +1,15 @@
+#jumbotron_first {
+  background: #0087BD;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color:white;
+  height: 300px;
+  padding: 100px 50px;
+  margin: 0px;
+}
+
 #jumbotron_before_zoo_text {
   background: linear-gradient(rgba(95, 66, 224, 0.25),rgba(0, 255, 255, 0.45)),
   url("https://lh3.googleusercontent.com/bVtAwy-IqKNa0pJFX2Ra1QSaPFaUACiQP-yGFz_nPHJrKMadnm4e6Q7C1CwgcNVRa20LC16x_k3E72JCKzhfgfbxIWV1m5gsQbilfaIbAPNPaqo8rti4jtRarmoDlh6EbO8KcBbbGTdi96iWOqMBpFEWYjce05m5u4Skj9Q43LHxmNUm6EH0oNyJiGXMOkp66vbnM7MNIKQf6hAlzCcy_mpHCgc2eJ8IiBmPhBtnjgBc7YTyXwFoxX9I0dgbxbDax-D3QRE3s1fKtYjnmRWFUoRY6u6Ps0KTJevaBF7zyAzgTAD8sB6Pj3C6mw357YDSbHWZfKs9YvXOXqoyGHtBq7TVkVsG7dkxAR7FqCLVJvFfSExsEqQ4Lp35S0-9Qh6C1O02jtEdENUiTO0_Gb3RUg1MIgz_5iTOdIJrO-cqycR16mLQt6H0QcytEE7FV7ccIhXALIRpbNxgbR0GTf2fbBN8MxkvQg8qFp68ArRzv2TWmQ_BPtFqd2NsQAD1pwJHMK7gFZ53H1q-zfijb5z7LUPSLTuFonuAdADD4Eya-_ykQe6pxhVkmVhU2MVUWfzBFLym9tpQEJQDOq9MPZ411lIaROiTG5R0qNimlWSUC_DDooHGRDiRu9MGGixxvDB-Yhwx5zc8Ap80FW8-E6zBWap6JO1M-Hi2=w1425-h949-no");
@@ -6,7 +18,7 @@
   background-size: cover;
   background-attachment: fixed;
   color:white;
-  height: 600px;
+  height: 400px;
   padding: 100px 50px;
   padding-top: 140px;
   margin: 0px;
@@ -29,6 +41,7 @@
   padding: 20px;
   font-size: 19px;
   background-color: white;
+  color: black;
 }
 
 #jumbotron_after_zoo_text {
@@ -83,4 +96,9 @@ background-size: cover;
   -webkit-filter: drop-shadow(2px 2px 0 grey) drop-shadow(-2px -2px 0 grey);
   filter: drop-shadow(2px 2px 0 grey) drop-shadow(-2px -2px 0 grey);
      
+}
+
+#footer_praxis {
+  background: #0087BD;
+  height: 1000px;
 }
