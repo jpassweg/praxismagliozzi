@@ -84,6 +84,28 @@
   display: none;
 }
 
+@media screen and (max-width: 1500px) {
+  #metropicture {
+    display: none;
+  }
+
+  #metropicturesmall {
+    display: flex;
+    width: 100%;
+  }
+
+  #profilepicture {
+    padding-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  #profilewrapper {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
 #ausbildung2 {
   background-image: url("../images/wave.jpeg");
   background-color: #cccccc;
@@ -109,29 +131,26 @@
   font-size: 20px;
 }
 
-#footer_praxis {
-  background: #0087BD;
-  height: 1000px;
+#textpraxisbig {
+  display: block;
 }
 
-@media screen and (max-width: 1500px) {
-  #metropicture {
-    display: none;
-  }
-
-  #metropicturesmall {
-    display: flex;
-    width: 100%;
-  }
-
-  #profilepicture {
-    padding-bottom: 50px;
-  }
+#textpraxissmall {
+  display: none;
 }
 
 @media screen and (max-width: 1000px) {
-  #profilewrapper {
-    display: flex;
-    flex-direction: column;
+  #textpraxisbig {
+    display: none;
   }
+
+  #textpraxissmall {
+    display: block;
+    font-size: 20px;
+  }
+}
+
+#footer_praxis {
+  background: #0087BD;
+  height: 1000px;
 }
