@@ -21,8 +21,10 @@
 
   min-height: 1000px;
 
+  background-position-x: center;
   background-repeat: no-repeat;
   background-size: cover;
+  
   background-attachment: fixed;
 }
 
@@ -34,6 +36,31 @@
   font-size: 19px;
   background-color: white;
   color: black;
+}
+
+#willkommen-wrapper-small {
+  display: none;
+}
+
+#willkommen2 {
+  width: 100%;
+
+  padding: 20px;
+  
+  font-size: 19px;
+  background-color: white;
+  color: black;
+}
+
+@media screen and (max-width: 1000px) {
+  #textpraxisbig {
+    display: none;
+  }
+
+  #textpraxissmall {
+    display: block;
+    font-size: 20px;
+  }
 }
 
 #profilewrapper {
@@ -94,7 +121,7 @@
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
-  background-position: center;
+  background-position-x: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
