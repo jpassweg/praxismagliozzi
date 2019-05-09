@@ -10,6 +10,7 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="resources/css/styles.css">
   <script src="resources/scripts/smoothscroll.js"></script>
+  <link rel="stylesheet" href="resources/css/styles_ids.css">
 </head>
 
 
@@ -29,7 +30,7 @@
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#willkommen">WILLKOMMEN</a></li>
+            <li><a href="#jumbotron_before_zoo_text">WILLKOMMEN</a></li>
             <li><a href="#about">&UumlBER MICH</a></li>
             <li><a href="#services">SPEZIALISIERUNGEN</a></li>
             <li><a href="#contact">KONTAKT</a></li>
@@ -41,74 +42,74 @@
 
   <!-- first Block - About Section -->
 
-
-  <div class="jumbotron jumbotron1 text-center">
-      <h1><strong>Arztpraxis für Psychiatrie und Psychotherapie</strong></h1>
+  <div class="jumbotron text-center" id="jumbotron_first">
+    <h1><strong>Arztpraxis für Psychiatrie und Psychotherapie</strong></h1>
       <p>Medizin und Psychologie kombiniert</p>
       <a href="#contact" class="btn button_smallcontact2">Vereinbare einen Termin</a>
   </div>
 
   <!-- Zoo Section -->
 
-  <div id="willkommen" class="container-fluid bg-white">
-    <div class="container-fluid text-center">
-        <p>
-            Wie mein Foto zeigt, Menschen im Zoo interessieren mich! <br><br>
-            Sollte das Leben im Zoo sie mit Problemen belasten, emotional destabilisieren und
-            körperlich Spuren hinterlassen, so stehe ich Ihnen gerne ärztlich und psychotherapeutisch
-            bei. <br><br>
-            Ich behandle meine Patienten mit der Integrierten psychiatrisch-psychotherapeutischen
-            Methode (IPPB).<br> Sie umfasst psychotherapeutische Gespräche und medikamentöse
-            Unterstützung wenn nötig. Hier gilt die Maxime so viel wie nötig, so wenig wie möglich. <br><br>
-            Ihnen zeigt der Lebenslauf die Stationen meiner Ausbildung und beruflichen Tätigkeit. <br><br>
-            Auf ein Erstgespräch mit Ihnen freue ich mich. <br><br>
-            Dr. med. Sandro Magliozzi <br><br>
-            Facharzt FMH für Psychiatrie und Psychotherapie
-        </p>
-    </div>
+  <!--jumbotron class -> bigger titles -->
+  <div class="jumbotron text-center" id="jumbotron_before_zoo_text">
   </div>
+
+  <div id="willkommen-wrapper" class="container-fluid bg-white text-center">
+      <p id="willkommen" class="slideanim">
+          Wie mein Foto zeigt, Menschen im Zoo interessieren mich! <br>
+          Sollte das Leben im Zoo sie mit Problemen belasten, emotional destabilisieren und
+          körperlich Spuren hinterlassen, so stehe ich Ihnen gerne ärztlich und psychotherapeutisch bei. <br>
+          Ich behandle meine Patienten mit der Integrierten psychiatrisch-psychotherapeutischen
+          Methode (IPPB). <br>
+          Sie umfasst psychotherapeutische Gespräche und medikamentöse
+          Unterstützung wenn nötig. Hier gilt die Maxime so viel wie nötig, so wenig wie möglich. <br>
+          Auf ein Erstgespräch mit Ihnen freue ich mich. <br>
+      </p>
+  </div>
+
+  <div class="jumbotron text-center" id="jumbotron_after_zoo_text"></div>
 
   <!-- Profile -->
 
-
   <div id="about" class="container-fluid bg-grey">
-    <div class="row">
+    <div class="text-center">
+        <h1>Über Dr. med. Sandro Magliozzi</h1>
+        Facharzt FMH für Psychiatrie und Psychotherapie<br>
+        <br><br><br><br>
+    </div>
+    <div class="row" id="profilewrapper">
       <div class="col-sm-4 slideanim">
-          <img src="resources/images/Sandro.jpg" alt="me" width="100%" margin="5px">
+          <img src="resources/images/Sandro3.png" alt="me" id="profilepicture">
       </div>
-      <div class="col-sm-8">
-        <br>
-        <br>
-        <h4><strong>Über Dr. med. Sandro Magliozzi</strong></h4>
-        Ausbildungen und Tätigkeiten
-        <table>
-          <tr><td>1984&#160;</td> <td>Matura Typus B, Gymnasium am Kohlenberg in Basel</td></tr>
-          <tr><td>1984&#160;</td> <td>Rekrutenschule in Liestal BL</td></tr>
-          <tr><td>1985-1986&#160;</td> <td>Architekturpraktikum bei dipl. Arch. R. Voellmin in Basel</td></tr>
-          <tr><td>1986&#160;</td> <td>Heilpädagogikpraktikum im „Wohn- und Arbeitsheim Balm“ in Jona SG</td></tr>
-        </table>
-        <table>
-          <tr><td>1986-1993&#160;</td> <td>Medizinstudium in Basel</td></tr>
-          <tr><td>1990-1991&#160;</td> <td>Wahlstudienjahr</td></tr>
-          <tr><td>1993&#160;</td> <td>Staatsexamen Arzt</td></tr>
-          <tr><td>1995&#160;</td> <td>Dissertation und Promotion bei Prof. M. Rutishauser
-            Universitäts-Kinderklinik Basel zum Thema „Fremdkörper-
-            aspiration im Kindesalter“</td></tr>
-          </table>
+      <div class="col-sm-8 slideanim">
+        <img src="resources/images/metro horizontal.png" id="metropicture">
+        <img src="resources/images/metro vertical.png" id="metropicturesmall">
+        <div id="metrotext">
+            <table>
+                <tr><td>1984&#160;</td> <td>Matura Typus B, Gymnasium am Kohlenberg in Basel</td></tr>
+                <tr><td>1984&#160;</td> <td>Rekrutenschule in Liestal BL</td></tr>
+                <tr><td>1985-1986&#160;</td> <td>Architekturpraktikum bei dipl. Arch. R. Voellmin in Basel</td></tr>
+                <tr><td>1986&#160;</td> <td>Heilpädagogikpraktikum im „Wohn- und Arbeitsheim Balm“ in Jona SG</td></tr>
+              </table>
+              <table>
+                <tr><td>1986-1993&#160;</td> <td>Medizinstudium in Basel</td></tr>
+                <tr><td>1990-1991&#160;</td> <td>Wahlstudienjahr</td></tr>
+                <tr><td>1993&#160;</td> <td>Staatsexamen Arzt</td></tr>
+                <tr><td>1995&#160;</td> <td>Dissertation und Promotion bei Prof. M. Rutishauser
+                  Universitäts-Kinderklinik Basel zum Thema „Fremdkörper-
+                  aspiration im Kindesalter“</td></tr>
+                </table>
+        </div>
       </div>
     </div>
   </div>
 
-
   <!-- Second Block - If he wants to say anything -->
 
-  <div class="container-fluid bg-dgrey">
-    <div class="row">
-      <div class="col-sm-4">
-        <span class="glyphicon glyphicon-education logo slideanim"><h1>Ausbildung</h1></span>
-      </div>
-      <div class="col-sm-8">
-        <h2>&Uumlber meine Berufserfahrung</h2>
+  <div class="container-fluid bg-dgrey" id="ausbildung2">
+    <div class="row" id="ausbildung2text">
+        <h1 class="text-center">Berufserfahrung</h1>
+        <br><br>
         <h3>Psychotherapeutische Ausbildung:</h3>
         <ul>
           <li>1994-2001 <b>Weiterbildungen</b> in Psychodynamischer Psychotherapie</li>
@@ -137,51 +138,157 @@
             </li>
           </ul>
         </ul>
-      </div>
     </div>
   </div>
-
 
   <!-- Services Block - Can be whatever, Skills included -->
 
 
   <div id="services" class="container-fluid text-center bg-grey">
-    <h2><strong>Spezialisierungen:</strong></h2>
+    <h1>Spezialisierungen</h1>
     <br>
     <br><br>
     <div class="row slideanim">
         <div class="col-sm-4">
-    <a href="abuse.html"><img src="resources\images\abuse.jpg" class="img-circle person" alt="Random Name" width="255" height="255"></a>
+    <button type="button" class="btn btn-with-image" data-toggle="modal" data-target="#abuse"><img src="resources\images\abuse.jpg" class="img-circle person" alt="Random Name" width="255" height="255"></button>
     <h3 class="text-center">Sexueller Misbrauch</h3><br>
+    <div id="abuse" class="modal fade text-left" role="dialog">
+      <div class="modal-dialog modal-lg">
+
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h3 class="modal-title text-center"><i>Sexueller Missbrauch</i></h3>
+          </div>
+          <div class="modal-body" style="background-image:url('http://insightfulcare.com/wp-content/uploads/2016/11/bkgrnd.png');background-repeat:repeat;">
+            <h3 class="a text-center" style="color:#0087BD">Obwohl es nicht möglich ist eine Erinnerung zu löschen, es <strong>ist</strong> möglich deren Kontrolle über Sie zu nehmen!<h3>
+              <br>
+              <h3>Typische Gefühle und Symptome</h3>
+              <ul>
+                <li>Schuld</li>
+                <li>Schahm</li>
+                <li>Wertlosigkeit</li>
+                <li>Depression</li>
+                <li>Angst</li>
+                <li>Konstante Sorgen</li>
+                <li>Selbsbeschuldigung</li>
+                <li>Emotionale Höhen und Tiefen</li>
+                <li>Isolation</li>
+              </ul>
+              <br>
+              <h3>Wie würde Therapie aussehen?</h3>
+              <p>Beginnen über sexuellen Missbrauch zu sprechen can einschüchternd sein. Vielleicht
+                haben Sie es eine lange Zeit lang verdrängt. Vielleicht haben Sie bereits darüber
+                gesprochen und es war zu schmerzhaft. Sie mögen das Gefühl haben, dass wenn Sie
+                darüber sprechen, Sie die Flut an Emotionen die Sie so lange weggesperrt haben
+                nicht mehr kontrollieren können. Ich verstehe diese Schwierigkeiten und werde niemals
+                schneller oder weiter gehen als dass Sie möchten oder mögen.</p>
+                <br>
+                <p>Diese Art von Therapie involviert das Sprechen über den Missbrauch und das durcharbeiten
+                  der Gedanken und Verhalten die daraus entstanden sind. Bevor wir mit dem Teil der
+                  Therapie beginnen, werden wir sicherstellen das Sie die nötigen Fähigkeiten und
+                  Werkzeuge besizen. Ich habe Erfahrung mit mehreren Therapien in diesem Feld und werde
+                  mit Ihnen zusammen daran arbeiten die bestgeeignetste und für Sie angenehmste zu finden.</p>
+                <br>
+                <h3>Was wenn ich nicht über den Missbrauch sprechen will?</h3>
+                <br>
+                <p>An was wir in der Therapie arbeiten ist Ihre Entscheidung. Wenn Sie es nicht für
+                  nötig halten über den Missbrauch zu sprechen oder einfach nicht darüber sprechen wollen
+                  zu diesem Zeitpunkt, können Sie diese Entscheidung treffen! Sie haben die Kontrolle
+                  über Ihre Therapie und meine Rolle als Threapeut ist es, Ihnen bei Ihrem Weg Ihre
+                  Ziele zu erreichen beizustehen.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
   </div>
   <div class="col-sm-4">
-    <a href="depression.html"><img src="resources\images\depression.jpg" class="img-circle person" alt="Random Name" width="255" height="255"></a>
+    <button type="button" class="btn btn-with-image" data-toggle="modal" data-target="#depression"><img src="resources\images\depression.jpg" class="img-circle person" alt="Random Name" width="255" height="255"></button>
     <h3 class="text-center">Depression</h3><br>
+    <div id="depression" class="modal fade text-left" role="dialog">
+      <div class="modal-dialog modal-lg">
+
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h3 class="modal-title text-center"><i>Depression</i></h3>
+          </div>
+          <div class="modal-body">
+            <h3 class="a text-center" style="color:#0087BD">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
+              <br>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec condimentum eleifend eros vitae dictum. Mauris eleifend elit augue, et maximus erat blandit et. Donec vulputate accumsan mi. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. In viverra eu odio non porttitor. Morbi semper nibh eget nisl dignissim egestas. Nunc sit amet condimentum quam. Nam tempus gravida erat imperdiet lacinia. Sed viverra dui leo, ac congue lorem rhoncus eu. Donec eget ornare orci, et tincidunt nisi. Etiam turpis ipsum, aliquam sed odio sit amet, dapibus tincidunt erat. Nullam eu semper ligula. Vestibulum neque purus, egestas vel dapibus nec, ultrices eget purus. Praesent a tellus ipsum.
+
+Suspendisse viverra nunc placerat mi malesuada maximus. Sed condimentum orci sapien, a pharetra diam condimentum in. Nulla facilisi. Nulla lacinia a nulla vel volutpat. Pellentesque luctus, elit sit amet vehicula feugiat, tellus libero elementum nunc, eget varius purus augue non enim. Morbi id lacus tristique diam fermentum convallis quis in sem. Integer tristique consequat lacus sed rhoncus. Suspendisse tristique arcu eu lacus facilisis mattis. Etiam iaculis leo sit amet condimentum porttitor. Proin vel efficitur diam. Curabitur in metus luctus, facilisis lectus vel, viverra sem. Fusce tristique, leo quis rhoncus volutpat, neque augue eleifend nibh, in viverra risus odio eu est. Aenean faucibus eros vel nibh tincidunt ornare. Cras eu lacus est. Nullam in ligula nec dolor auctor porta scelerisque quis mauris. Pellentesque purus lacus, varius viverra convallis non, porta ut urna.
+<br>
+<h3>Wie würde Therapie aussehen?</h3>
+Morbi in odio ac arcu ullamcorper euismod. Aliquam cursus quam augue, id sodales metus consectetur sit amet. Sed eleifend, velit quis ornare vulputate, diam dolor lobortis justo, ac luctus eros mi vitae ipsum. Maecenas ultricies eget arcu in rhoncus. Praesent mattis arcu ac dolor dapibus iaculis. Donec et porta magna, ut efficitur lacus. Mauris efficitur vehicula enim in sollicitudin. Duis a lorem in velit sagittis lacinia ac eu mi. Sed rhoncus massa dui. Duis sed diam sit amet nulla volutpat auctor. Curabitur ut odio scelerisque, sodales mauris vitae, dignissim ipsum.
+<br>
+Sed at rutrum dui. Nullam pharetra lacus et dolor faucibus accumsan. Mauris suscipit semper velit blandit convallis. Sed tempor vel nibh eu accumsan. Suspendisse nec mauris malesuada, placerat diam ac, scelerisque turpis. Aenean sodales dignissim sem, blandit dictum ligula pretium ut. Donec feugiat pretium risus. Mauris sed augue eu tortor luctus feugiat.
+<br>
+Sed lacinia viverra eleifend. Curabitur tempor convallis justo, et ornare nibh egestas tincidunt. Integer quis porta odio. Praesent sollicitudin, elit fringilla condimentum dictum, lectus nisl volutpat turpis, ac bibendum mi lectus id mauris. Quisque nunc orci, ultricies ut iaculis quis, tincidunt vitae nibh. Ut tempor orci a neque iaculis hendrerit. Praesent interdum ante a mi sodales, ullamcorper posuere lectus blandit. Praesent id euismod libero. Nunc eu lorem eleifend, condimentum lorem in, eleifend justo. Sed lacinia tellus sed nisi pulvinar, et condimentum diam tincidunt. Donec pulvinar lectus vitae urna tristique tempor.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
   </div>
   <div class="col-sm-4">
-    <a href="addiction.html"><img src="resources\images\addiction.jpg" class="img-circle person" alt="Random Name" width="255" height="255"></a>
+    <button type="button" class="btn btn-with-image" data-toggle="modal" data-target="#addiction"><img src="resources\images\addiction.jpg" class="img-circle person" alt="Random Name" width="255" height="255"></button>
     <h3 class="text-center">Sucht</h3><br>
+    <div id="addiction" class="modal fade text-left" role="dialog">
+      <div class="modal-dialog modal-lg">
+
+        <div class="modal-content" id="grad1">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h3 class="modal-title text-center"><i>Sucht</i></h3>
+          </div>
+          <div class="modal-body">
+            <h3 class="a text-center" style="color:white;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec condimentum eleifend eros vitae dictum.</h3>
+              <br>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec condimentum eleifend eros vitae dictum. Mauris eleifend elit augue, et maximus erat blandit et. Donec vulputate accumsan mi. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. In viverra eu odio non porttitor. Morbi semper nibh eget nisl dignissim egestas. Nunc sit amet condimentum quam. Nam tempus gravida erat imperdiet lacinia. Sed viverra dui leo, ac congue lorem rhoncus eu. Donec eget ornare orci, et tincidunt nisi. Etiam turpis ipsum, aliquam sed odio sit amet, dapibus tincidunt erat. Nullam eu semper ligula. Vestibulum neque purus, egestas vel dapibus nec, ultrices eget purus. Praesent a tellus ipsum.
+
+Suspendisse viverra nunc placerat mi malesuada maximus. Sed condimentum orci sapien, a pharetra diam condimentum in. Nulla facilisi. Nulla lacinia a nulla vel volutpat. Pellentesque luctus, elit sit amet vehicula feugiat, tellus libero elementum nunc, eget varius purus augue non enim. Morbi id lacus tristique diam fermentum convallis quis in sem. Integer tristique consequat lacus sed rhoncus. Suspendisse tristique arcu eu lacus facilisis mattis. Etiam iaculis leo sit amet condimentum porttitor. Proin vel efficitur diam. Curabitur in metus luctus, facilisis lectus vel, viverra sem. Fusce tristique, leo quis rhoncus volutpat, neque augue eleifend nibh, in viverra risus odio eu est. Aenean faucibus eros vel nibh tincidunt ornare. Cras eu lacus est. Nullam in ligula nec dolor auctor porta scelerisque quis mauris. Pellentesque purus lacus, varius viverra convallis non, porta ut urna.
+
+Morbi in odio ac arcu ullamcorper euismod. Aliquam cursus quam augue, id sodales metus consectetur sit amet. Sed eleifend, velit quis ornare vulputate, diam dolor lobortis justo, ac luctus eros mi vitae ipsum. Maecenas ultricies eget arcu in rhoncus. Praesent mattis arcu ac dolor dapibus iaculis. Donec et porta magna, ut efficitur lacus. Mauris efficitur vehicula enim in sollicitudin. Duis a lorem in velit sagittis lacinia ac eu mi. Sed rhoncus massa dui. Duis sed diam sit amet nulla volutpat auctor. Curabitur ut odio scelerisque, sodales mauris vitae, dignissim ipsum.
+<h3>Wie würde Therapie aussehen?</h3>
+Sed at rutrum dui. Nullam pharetra lacus et dolor faucibus accumsan. Mauris suscipit semper velit blandit convallis. Sed tempor vel nibh eu accumsan. Suspendisse nec mauris malesuada, placerat diam ac, scelerisque turpis. Aenean sodales dignissim sem, blandit dictum ligula pretium ut. Donec feugiat pretium risus. Mauris sed augue eu tortor luctus feugiat.
+
+Sed lacinia viverra eleifend. Curabitur tempor convallis justo, et ornare nibh egestas tincidunt. Integer quis porta odio. Praesent sollicitudin, elit fringilla condimentum dictum, lectus nisl volutpat turpis, ac bibendum mi lectus id mauris. Quisque nunc orci, ultricies ut iaculis quis, tincidunt vitae nibh. Ut tempor orci a neque iaculis hendrerit. Praesent interdum ante a mi sodales, ullamcorper posuere lectus blandit. Praesent id euismod libero. Nunc eu lorem eleifend, condimentum lorem in, eleifend justo. Sed lacinia tellus sed nisi pulvinar, et condimentum diam tincidunt. Donec pulvinar lectus vitae urna tristique tempor.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
   </div>
     </div>
   </div>
-  <hr size="3px">
 
   <!-- contact - Maybe map? -->
 
 
   <div id="contact" class="container-fluid bg-white">
     <div class="row">
-        <h2 class="text-center">KONTAKT</h2>
-      <div class="col-sm-5">
-        <br>
+        <h1 class="text-center">Kontakt</h1>
+      <div class="col-sm-5" id="kontakttext">
         <p>Dr. med. Magliozzi Praktischer Arzt, Psychiatrie u. Psychotherapie </p>
         <p>Ich bin errichbar Montags - Freitags, von 8:00 - 17:00 Uhr.</p>
-        <p><span class="glyphicon glyphicon-map-marker"></span> Rathausgasse 17, 5000 Aarau , CH</p>
-        <p><span class="glyphicon glyphicon-phone"></span>Tel: 062 822 94 94</p>
-        <p><span class="glyphicon glyphicon-phone"></span>Fax: 062 822 94 94</p>
+        <p><span class="glyphicon glyphicon-map-marker"></span> Rathausgasse 17, 5000 Aarau, CH</p>
+        <p><span class="glyphicon glyphicon-phone"></span> Tel: 062 822 94 94</p>
+        <p><span class="glyphicon glyphicon-phone"></span> Fax: 062 822 94 94</p>
+        <p id="textpraxisbig">
+          <br>
+          Seit 2002 betreibt Dr. med. Magliozzi seine Praxis im Mitten der Altstadt von Aarau.
+          Für einen Termin, rufen Sie bitte die Nummer 062 822 94 94 an. Falls Dr. med. Magliozzi gerade nicht
+          erreichbar ist, wird er Ihnen innert kurzer Zeit zurückrufen. Sie dürfen also gerne auf das Telefonband sprechen.
+        </p>
       </div>
       <div class="col-sm-7 slideanim">
-        <h4 class="text-center">Hier findet ihr mich</h4>
+        <h4 class="text-center">Hier findet Ihr mich:</h4>
         <div>
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2700.
             9857449789038!2d8.04176831583487!3d47.39271101072173!2m3!1f0!2f0!3f0!3m2
@@ -191,11 +298,17 @@
         </div>
       </div>
     </div>
+    <p id="textpraxissmall">
+        <br>
+        Seit 2002 betreibt Dr. med. Magliozzi seine Praxis im Mitten der Altstadt von Aarau.
+        Für einen Termin, rufen Sie bitte die Nummer 062 822 94 94 an. Falls Dr. med. Magliozzi gerade nicht
+        erreichbar ist, wird er Ihnen innert kurzer Zeit zurückrufen. Sie dürfen also gerne auf das Telefonband sprechen.
+      </p>
   </div>
 
 
   <!-- foorter - Brings you back to top-->
-  <footer class="container-fluid text-center bg-lb">
+  <footer class="container-fluid text-center bg-lb" id="footer_praxis">
     <a href="#myPage" title="Nach Oben">
       <span class="glyphicon glyphicon-chevron-up"></span>
     </a><br>
