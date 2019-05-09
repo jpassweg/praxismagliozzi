@@ -52,15 +52,22 @@
   color: black;
 }
 
-@media screen and (max-width: 1000px) {
-  #textpraxisbig {
+#willkommen-picture-small {
+  width: 100%;
+  background: linear-gradient(rgba(95, 66, 224, 0.25),rgba(0, 255, 255, 0.45));
+  filter: opacity(0.8);
+}
+
+@media screen and (max-width: 768px) {
+  #willkommen-wrapper {
     display: none;
   }
 
-  #textpraxissmall {
+  #willkommen-wrapper-small {
     display: block;
-    font-size: 20px;
   }
+
+
 }
 
 #profilewrapper {
@@ -124,6 +131,19 @@
   background-position-x: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+@media screen and (max-width: 768px) {
+  #ausbildung2 {
+    background-image: url("wave.jpeg");
+    background-color: #cccccc;
+
+    background-attachment: scroll;
+    background-position: initial;
+    background-repeat: no-repeat;
+
+    font-weight: bold;
+  }
 }
 
 #ausbildung2text {
