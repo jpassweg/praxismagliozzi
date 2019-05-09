@@ -260,3 +260,8 @@ footer .glyphicon {
     -webkit-transform: translateY(0%);
   }
 }
+
+footer a[href^=tel] {
+    text-decoration: none;
+    color: black;
+}
