@@ -169,6 +169,18 @@
   }
 }
 
+#find_me_big {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  #find_me_big {
+    display: block;
+  }
+}
+
+
+
 #footer_praxis {
   background: #0087BD;
   min-height: 200px;
