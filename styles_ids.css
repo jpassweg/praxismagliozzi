@@ -1,4 +1,4 @@
-#jumbotron_first {
+#jumbotron_title {
   background: #0087BD;
 
   background-repeat: no-repeat;
@@ -115,36 +115,29 @@
 
 #ausbildung2 {
   background-image: url("wave.jpeg");
-  background-color: #cccccc;
-
-  font-weight: bold;
-  
-  /* Set a specific height */ 
-  min-height: 900px;
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-@media screen and (max-width: 768px) {
-  #ausbildung2 {
-    background-image: url("wave.jpeg");
-    background-color: #cccccc;
-
-    background-attachment: scroll;
-    background-position: initial;
-    background-repeat: no-repeat;
-
-    font-weight: bold;
-  }
 }
 
 #ausbildung2text {
   font-size: 15px;
   color: black;
+}
+
+@media screen and (min-width: 768px) {
+  #ausbildung2 {
+    background-image: url("wave.jpeg");
+    background-color: #cccccc;
+  
+    font-weight: bold;
+    
+    /* Set a specific height */ 
+    min-height: 900px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 }
 
 #grad1{
