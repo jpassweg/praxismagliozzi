@@ -48,12 +48,19 @@
   }
 }
 
+#Magliozzi {
+  background-color: #f6f6f6;
+  padding: 100px 0;
+}
+
 #profilewrapper {
   display: flex; 
   align-items: center;
+  justify-content: center;
 }
 
 #profilepicture {
+  max-width: 400px;
   width:100%;
 
   -webkit-filter: drop-shadow(2px 2px 0 grey) drop-shadow(-2px -2px 0 grey);
@@ -62,15 +69,22 @@
 
 #metropicture {
   margin: auto;
-  width:80%;
+  width: 80%;
 }
 
 #metropicturesmall {
   display: none;
 }
 
-#metrotext {
+#metropicturesmallsmall {
   display: none;
+}
+
+@media screen and (max-width: 1000px) {
+  #profilewrapper {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 @media screen and (max-width: 1500px) {
@@ -83,15 +97,23 @@
     width: 100%;
   }
 
-  #profilepicture {
-    padding-bottom: 50px;
+  #metropicturesmallsmall {
+    display: none;
   }
 }
 
-@media screen and (max-width: 1000px) {
-  #profilewrapper {
-    display: flex;
-    flex-direction: column;
+@media screen and (max-width: 768px) {
+  #metropicture {
+    display: none;
+  }
+
+  #metropicturesmall {
+    display: none;
+  }
+
+  #metropicturesmallsmall {
+    display: block;
+    width: 100%;
   }
 }
 
