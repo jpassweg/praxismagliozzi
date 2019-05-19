@@ -227,6 +227,7 @@ footer .glyphicon {
 
 .slideopacityanim {
   visibility: hidden;
+  opacity: 0.8;
 }
 .slideopacity {
   animation-name: addopacity;

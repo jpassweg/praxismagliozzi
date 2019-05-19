@@ -13,8 +13,6 @@
   font-size: 19px;
   background-color: white;
   color: black; 
-
-  opacity: 0.8;
 }
 
 #willkommen-picture-small {
@@ -221,7 +219,7 @@
   padding: 100px 50px;
 }
 
-/* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
+/* Turn off parallax scrolling for all tablets and phones. */
 @media only screen and (max-width: 1366px) {
   #Willkommen {
     background-attachment: scroll;
