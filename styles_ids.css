@@ -11,12 +11,13 @@
 
 #willkommen-text {
   width: 100%;
-
   padding: 20px;
   
   font-size: 19px;
   background-color: white;
-  color: black;
+  color: black; 
+
+  opacity: 0.8;
 }
 
 #willkommen-picture-small {

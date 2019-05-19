@@ -225,6 +225,37 @@ footer .glyphicon {
   }
 }
 
+.slideopacityanim {
+  visibility: hidden;
+}
+.slideopacity {
+  animation-name: addopacity;
+  -webkit-animation-name: addopacity;
+  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+  visibility: visible;
+}
+@keyframes addopacity {
+  0% {
+    opacity: 0;
+    transform: translateY(70%);
+  }
+  100% {
+    opacity: 0.8;
+    transform: translateY(0%);
+  }
+}
+@-webkit-keyframes addopacity {
+  0% {
+    opacity: 0;
+    transform: translateY(70%);
+  }
+  100% {
+    opacity: 0.8;
+    transform: translateY(0%);
+  }
+}
+
 footer a[href^=tel] {
     text-decoration: none;
     color: black;
