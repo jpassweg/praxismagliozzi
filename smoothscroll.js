@@ -25,23 +25,31 @@ $(document).ready(function() {
 })
 
 $(window).scroll(function() {
-    $(".slideanim").each(function() {
-    var pos = $(this).offset().top;
-
-    var winTop = $(window).scrollTop();
-    if (pos < winTop + 600) {
-        $(this).addClass("slide");
+    if($(window).width() > 768) {
+        $(".slideanim").each(function() {
+            var pos = $(this).offset().top;
+        
+            var winTop = $(window).scrollTop();
+            if (pos < winTop + 600) {
+                $(this).addClass("slide");
+            }
+        });
+    } else {
+        $(".slideanim").removeClass("slideanim")
     }
-    });
 });
 
 $(window).scroll(function() {
-    $(".slideopacityanim").each(function() {
-    var pos = $(this).offset().top;
-
-    var winTop = $(window).scrollTop();
-    if (pos < winTop + 600) {
-        $(this).addClass("slideopacity");
+    if($(window).width() > 768) {
+        $(".slideopacityanim").each(function() {
+            var pos = $(this).offset().top;
+        
+            var winTop = $(window).scrollTop();
+            if (pos < winTop + 600) {
+                $(this).addClass("slideopacity");
+            }
+        });
+    }  else {
+        $(".slideopacityanim").removeClass("slideopacityanim")
     }
-    });
 });
