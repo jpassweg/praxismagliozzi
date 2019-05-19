@@ -97,19 +97,21 @@
 
 #Berufserfahrung {
   background-image: url("wave.jpeg");
+  height: 100%;
+  padding-bottom: 40px;
 }
 
 #ausbildung2text {
   font-size: 15px;
   color: black;
+
+  font-weight: bold;
 }
 
 @media screen and (min-width: 768px) {
   #Berufserfahrung {
     background-image: url("wave.jpeg");
     background-color: #cccccc;
-  
-    font-weight: bold;
     
     /* Set a specific height */ 
     min-height: 900px;
