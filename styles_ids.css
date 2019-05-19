@@ -45,7 +45,7 @@
 
 #Magliozzi {
   background-color: #f6f6f6;
-  padding: 20px 0;
+  padding: 40px 0;
 }
 
 @media screen and (min-width: 768px) {
@@ -127,7 +127,7 @@
   background-image: url("wave.jpeg");
   height: 100%;
   background-color: #EDEDED;
-  padding: 20px 50px;
+  padding: 40px 50px;
 
   font-size: 15px;
   color: black;
@@ -157,7 +157,7 @@
 }
 
 
-@media screen and (max-width: 368px) {
+@media screen and (max-width: 420px) {
   #Berufserfahrung {
     background: #0087BD;
     font-weight: normal;
@@ -167,7 +167,7 @@
 
 #Spezialisierungen {
   background-color: #f6f6f6;
-  padding: 20px 50px;
+  padding: 40px 50px;
 }
 
 @media screen and (min-width: 768px) {
@@ -185,7 +185,7 @@
 
 #Kontakt {
   background-color: #FFFFFF;
-  padding: 20px 50px;
+  padding: 40px 50px;
   font-size: 20px;
 }
 
