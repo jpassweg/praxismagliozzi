@@ -40,11 +40,10 @@
   
     min-height: 1000px;
   
+    background-attachment: fixed;
     background-position-x: center;
     background-repeat: no-repeat;
     background-size: cover;
-    
-    background-attachment: fixed;
   }
 }
 
@@ -154,4 +153,15 @@
 #footer_praxis {
   background: #0087BD;
   min-height: 200px;
+}
+
+/* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
+@media only screen and (max-width: 1366px) {
+  #Willkommen {
+    background-attachment: scroll;
+  }
+
+  #Berufserfahrung {
+    background-attachment: scroll;
+  }
 }
