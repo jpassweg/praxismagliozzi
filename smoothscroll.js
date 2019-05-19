@@ -24,11 +24,19 @@ $(document).ready(function() {
     });
 })
 
+
 $(window).scroll(function() {
     if($(window).width() > 1366) {
-        $(".slideopacityanim").addClass("slideanim")
-        $(".slideopacityanim").removeClass("slideopacityanim")
-    } else if($(window).width() > 768) {
+        $(".slideopacityanim_wrapper").addClass("slideanim")
+        
+    } else {
+        $(".slideopacityanim_wrapper").addClass("slideopacityanim")
+    }
+});
+
+
+$(window).scroll(function() {
+    if($(window).width() > 768) {
         $(".slideopacityanim").each(function() {
             var pos = $(this).offset().top;
         
