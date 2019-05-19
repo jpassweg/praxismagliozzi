@@ -45,7 +45,14 @@
 
 #Magliozzi {
   background-color: #f6f6f6;
-  padding: 100px 0;
+  padding: 20px 0;
+}
+
+@media screen and (min-width: 768px) {
+  #Magliozzi {
+    background-color: #f6f6f6;
+    padding: 100px 0;
+  }
 }
 
 #profilewrapper {
@@ -120,12 +127,12 @@
   background-image: url("wave.jpeg");
   height: 100%;
   background-color: #EDEDED;
-  padding: 100px 50px;
+  padding: 20px 50px;
 
   font-size: 15px;
   color: black;
 
-  font-weight: bold;
+  font-weight: normal;
 }
 
 @media screen and (min-width: 768px) {
@@ -144,14 +151,30 @@
 
     font-size: 15px;
     color: black;
-  
+
     font-weight: bold;
+  }
+}
+
+
+@media screen and (max-width: 368px) {
+  #Berufserfahrung {
+    background: #0087BD;
+    font-weight: normal;
+    color: white;
   }
 }
 
 #Spezialisierungen {
   background-color: #f6f6f6;
-  padding: 100px 50px;
+  padding: 20px 50px;
+}
+
+@media screen and (min-width: 768px) {
+  #Spezialisierungen {
+    background-color: #f6f6f6;
+    padding: 100px 50px;
+  }
 }
 
 #grad1{
@@ -162,8 +185,16 @@
 
 #Kontakt {
   background-color: #FFFFFF;
-  padding: 100px 50px;
+  padding: 20px 50px;
   font-size: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  #Kontakt {
+    background-color: #FFFFFF;
+    padding: 100px 50px;
+    font-size: 20px;
+  }
 }
 
 #kontaktwrapper {
