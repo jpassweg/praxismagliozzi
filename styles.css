@@ -116,6 +116,10 @@ footer .glyphicon {
   }
 }
 
+.slideopacityanim_wrapper{
+  visibility: hidden;
+  opacity: 0;
+}
 .slideopacityanim {
   visibility: hidden;
   opacity: 0.8;

@@ -28,9 +28,11 @@ $(document).ready(function() {
 $(window).scroll(function() {
     if($(window).width() > 1366) {
         $(".slideopacityanim_wrapper").addClass("slideanim")
+        $(".slideopacityanim_wrapper").removeClass("slideopacityanim_wrapper")
         
     } else {
         $(".slideopacityanim_wrapper").addClass("slideopacityanim")
+        $(".slideopacityanim_wrapper").removeClass("slideopacityanim_wrapper")
     }
 });
 
