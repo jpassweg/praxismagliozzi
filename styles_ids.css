@@ -1,56 +1,34 @@
 #jumbotron_title {
-  background: #0087BD;
+  background: #ffffff;
 
-  color:white;
-  padding: 100px 50px;
+  padding: 100px 0 20px 0;
   margin: 0px;
 }
 
-#willkommen-text {
-  width: 100%;
+#Zoo {
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+}
+
+#zoopicture {
+  width: 50%;
+}
+
+#zootext {
+  width: 50%;
   padding: 20px;
-  
   font-size: 19px;
-  background-color: white;
-  color: black; 
-}
-
-#willkommen-picture-small {
-  width: 100%;
-}
-
-@media screen and (min-width: 768px) {
-  #willkommen-picture-small {
-    display: none;
-  }
-
-  #Willkommen {
-    display: flex;
-    align-items: center;
-  
-    padding: 0px;
-    margin: 0px;  
-  
-    background: linear-gradient(rgba(95, 66, 224, 0.25),rgba(0, 255, 255, 0.45)),
-    url("https://lh3.googleusercontent.com/bVtAwy-IqKNa0pJFX2Ra1QSaPFaUACiQP-yGFz_nPHJrKMadnm4e6Q7C1CwgcNVRa20LC16x_k3E72JCKzhfgfbxIWV1m5gsQbilfaIbAPNPaqo8rti4jtRarmoDlh6EbO8KcBbbGTdi96iWOqMBpFEWYjce05m5u4Skj9Q43LHxmNUm6EH0oNyJiGXMOkp66vbnM7MNIKQf6hAlzCcy_mpHCgc2eJ8IiBmPhBtnjgBc7YTyXwFoxX9I0dgbxbDax-D3QRE3s1fKtYjnmRWFUoRY6u6Ps0KTJevaBF7zyAzgTAD8sB6Pj3C6mw357YDSbHWZfKs9YvXOXqoyGHtBq7TVkVsG7dkxAR7FqCLVJvFfSExsEqQ4Lp35S0-9Qh6C1O02jtEdENUiTO0_Gb3RUg1MIgz_5iTOdIJrO-cqycR16mLQt6H0QcytEE7FV7ccIhXALIRpbNxgbR0GTf2fbBN8MxkvQg8qFp68ArRzv2TWmQ_BPtFqd2NsQAD1pwJHMK7gFZ53H1q-zfijb5z7LUPSLTuFonuAdADD4Eya-_ykQe6pxhVkmVhU2MVUWfzBFLym9tpQEJQDOq9MPZ411lIaROiTG5R0qNimlWSUC_DDooHGRDiRu9MGGixxvDB-Yhwx5zc8Ap80FW8-E6zBWap6JO1M-Hi2=w1425-h949-no");
-  
-    min-height: 1000px;
-  
-    background-attachment: fixed;
-    background-position-x: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
 }
 
 #Magliozzi {
-  background-color: #f6f6f6;
+  background-color: #ffffff;
   padding: 40px 0;
 }
 
 @media screen and (min-width: 768px) {
   #Magliozzi {
-    background-color: #f6f6f6;
+    background-color: #ffffff;
     padding: 100px 0;
   }
 }
@@ -124,63 +102,28 @@
 }
 
 #Berufserfahrung {
-  background-image: url("wave.jpeg");
   height: 100%;
-  background-color: #EDEDED;
+  background-color: #ffffff;
   padding: 40px 50px;
 
-  font-size: 15px;
-  color: black;
+  font-size: 20px;
 
-  font-weight: normal;
 }
 
 @media screen and (min-width: 768px) {
   #Berufserfahrung {
-    background-image: url("wave.jpeg");
-    background-color: #cccccc;
-    
-    /* Set a specific height */ 
-    min-height: 900px;
-  
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: #ffffff;
 
-    font-size: 15px;
-    color: black;
-
-    font-weight: bold;
+    font-size: 20px;
   }
 }
 
 
 @media screen and (max-width: 400px) {
   #Berufserfahrung {
-    background: #0087BD;
+    background-color: #ffffff;
     font-weight: normal;
-    color: white;
   }
-}
-
-#Spezialisierungen {
-  background-color: #f6f6f6;
-  padding: 40px 50px;
-}
-
-@media screen and (min-width: 768px) {
-  #Spezialisierungen {
-    background-color: #f6f6f6;
-    padding: 100px 50px;
-  }
-}
-
-#grad1{
-  color: black;
-  background-color: blue;
-  background-image: linear-gradient(to bottom right, #0087BD, #00FFFF);
 }
 
 #Kontakt {
@@ -245,7 +188,7 @@
 }
 
 #footer_praxis {
-  background: #0087BD;
+  background: #ffffff;
   min-height: 200px;
   padding: 100px 50px;
 }
