@@ -1,6 +1,4 @@
 #jumbotron_title {
-  background: #ffffff;
-
   padding: 100px 0 50px 0;
   margin: 0px;
 }
@@ -12,23 +10,22 @@
 }
 
 #zoopicture {
-  width: 50%;
+  width: 70%;
 }
 
 #zootext {
-  width: 50%;
+  width: 30%;
   padding: 20px;
   font-size: 19px;
+  text-align: left;
 }
 
 #Magliozzi {
-  background-color: #ffffff;
   padding: 40px 0;
 }
 
 @media screen and (min-width: 768px) {
   #Magliozzi {
-    background-color: #ffffff;
     padding: 100px 0;
   }
 }
@@ -102,41 +99,26 @@
 }
 
 #Berufserfahrung {
-  height: 100%;
-  background-color: #ffffff;
-  padding: 40px 50px;
-
-  font-size: 20px;
-
+  display: none;
 }
 
 @media screen and (min-width: 768px) {
   #Berufserfahrung {
-    background-color: #ffffff;
-
+    display: block;
+    height: 100%;
+    padding: 40px 50px;
     font-size: 20px;
   }
 }
 
-
-@media screen and (max-width: 400px) {
-  #Berufserfahrung {
-    background-color: #ffffff;
-    font-weight: normal;
-  }
-}
-
 #Kontakt {
-  background-color: #FFFFFF;
   padding: 40px 50px;
   font-size: 20px;
 }
 
 @media screen and (min-width: 768px) {
   #Kontakt {
-    background-color: #FFFFFF;
     padding: 100px 50px;
-    font-size: 20px;
   }
 }
 
@@ -188,7 +170,6 @@
 }
 
 #footer_praxis {
-  background: #ffffff;
   min-height: 200px;
   padding: 100px 50px;
 }
