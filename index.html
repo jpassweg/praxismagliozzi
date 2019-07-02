@@ -9,6 +9,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
   <script src="smoothscroll.js"></script>
+  <script src="expand.js"></script>
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="styles.css">
@@ -84,10 +85,10 @@
 
   <!-- Berufserfahrung -->
   <div id="Berufserfahrung">
-      <div class="text-center">
-          <h1>Berufserfahrung</h1>
-      </div>
-      <br><br>
+    <div class="text-center">
+        <h1>Berufserfahrung</h1>
+    </div>
+    <div id="BerufserfahrungBig">
       <h3>Psychotherapeutische Ausbildung:</h3>
       <ul>
         <li>1994-2001 <b>Weiterbildungen</b> in Psychodynamischer Psychotherapie</li>
@@ -116,6 +117,44 @@
           </li>
         </ul>
       </ul>
+    </div>
+    <div id="BerufserfahrungSmall">
+      <div class="text-center">
+          <p> Klicken Sie hier für weitere berufliche Ausbildung: </p>
+          <span id="collapseicon" class="glyphicon glyphicon-chevron-down" onclick="expand()"></span>
+      </div>
+      <div id="BerufserfahrungCollapse">
+          <h3>Psychotherapeutische Ausbildung:</h3>
+          <ul>
+            <li>1994-2001 <b>Weiterbildungen</b> in Psychodynamischer Psychotherapie</li>
+            <li>1994-2001 <b>Psychotherapeutische Selbsterfahrung und Ausbildung</b>
+              Psychoan alytisch orientierte Gespr&aumlchspsychotherapie</li>
+            <li>1997-1998 <b>&aumlrztlich-psychotherapeutische Intervisionsgruppe</b> in Basel</li>
+          </ul>
+          <h3>&Aumlrztliche Ausbildung in Psychiatrie:</h3>
+          <ul>
+            <li>1994 Psychiatrische Akutstation und chronischgeriatrische Abteilung
+              Kantonale Psychiatrische Klinik in Liestal, Chefarzt Dr. med. T. Cahn</li>
+            <li>1995 Fortbildungsseminar in Notfallmedizin der Arbeitsgemeinschaft
+              Intensivmedizin (Oberstdorf, Deutschland)</li>
+            <li>1996-1997 Gerontopsychiatrische Akutstation des IPD Klinik K&oumlnigsfelden
+              Psychiatrische Dienste Kanton Aargau, Chefarzt Dr. med. M. Etzensberger</li>
+            <li>1998-1999 Akutstation der Geriatrische Universit&aumltsklinik
+              Kantonsspitals Basel, Chefarzt Prof. H.B. St&aumlhelin</li>
+            <li>2000-2001 Akutstation der Klinik St. Urban
+              Psychiatriezentrum Luzerner Landschaft, Chefarzt Dr. med. R. Ineichen</li>
+              <li>2002 Praxiser&oumlffnung</li>
+              <li>Seit 2002 <b>Psychotherapeutische Supervision, Weiter- und Fortbildung</b>
+                  Psychoanalytisch orientierte Gespr&aumlchspsychotherapie
+                  lic. phil. Psychologe U. Baud Psychotherapeut in Basel</li>
+              <li>
+                  2008 <b>Erhalt des Facharzttitels FMH f&uumlr Psychiatrie und Psychotherapie</b>
+              </li>
+            </ul>
+          </ul>
+        </div>
+    </div>
+    
   </div>
 
   <!-- Kontakt -->
