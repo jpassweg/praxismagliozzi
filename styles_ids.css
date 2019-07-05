@@ -14,23 +14,37 @@
 }
 
 #zootext {
-  width: 100%;
   padding: 20px;
   font-size: 19px;
   text-align: left;
 }
 
+
+@media screen and (min-width: 600px) {
+  #zootext {
+    width: 600px;
+  }
+}
+
+@media screen and (min-width: 840px) {
+  #zootext {
+    width: 840px;
+  }
+}
+
 @media screen and (min-width: 1150px) {
+  #zootext {
+    width: 1150px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
   #Zoo {
     flex-direction: row;
   }
 
-  #zoopicture {
-    width: 70%;
-  }
-
   #zootext {
-    width: 30%;
+    flex: 0 0 600px;
   }
 }
 
