@@ -2,6 +2,12 @@ body {
   background-color: #FFFFFF;
 }
 
+.tab {
+  position: relative;
+  left: 0px;
+  max-width: 1400px;
+}
+
 .navbar {
   margin-bottom: 0;
   background-color: #0087BD;
