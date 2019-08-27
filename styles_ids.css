@@ -177,6 +177,10 @@
   width: 117%;
 }
 
+#map iframe {
+  min-height: 450px
+}
+
 #kontakttext {
   width: 77%;
   margin-right: 20px;
