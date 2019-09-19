@@ -1,56 +1,59 @@
-#jumbotron_title {
-  background: #0087BD;
-
-  color:white;
-  padding: 100px 50px;
-  margin: 0px;
+#jumbotrontitle {
+  padding: 100px 0 50px 0;
 }
 
-#willkommen-text {
+#Zoo {
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  flex-direction: column-reverse;
+}
+
+#zoopicture {
   width: 100%;
+}
+
+#zootext {
   padding: 20px;
-  
   font-size: 19px;
-  background-color: white;
-  color: black; 
+  text-align: left;
 }
 
-#willkommen-picture-small {
-  width: 100%;
+
+@media screen and (min-width: 600px) {
+  #zootext {
+    width: 600px;
+  }
 }
 
-@media screen and (min-width: 768px) {
-  #willkommen-picture-small {
-    display: none;
+@media screen and (min-width: 840px) {
+  #zootext {
+    width: 840px;
+  }
+}
+
+@media screen and (min-width: 1150px) {
+  #zootext {
+    width: 1150px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  #Zoo {
+    flex-direction: row;
   }
 
-  #Willkommen {
-    display: flex;
-    align-items: center;
-  
-    padding: 0px;
-    margin: 0px;  
-  
-    background: linear-gradient(rgba(95, 66, 224, 0.25),rgba(0, 255, 255, 0.45)),
-    url("https://lh3.googleusercontent.com/bVtAwy-IqKNa0pJFX2Ra1QSaPFaUACiQP-yGFz_nPHJrKMadnm4e6Q7C1CwgcNVRa20LC16x_k3E72JCKzhfgfbxIWV1m5gsQbilfaIbAPNPaqo8rti4jtRarmoDlh6EbO8KcBbbGTdi96iWOqMBpFEWYjce05m5u4Skj9Q43LHxmNUm6EH0oNyJiGXMOkp66vbnM7MNIKQf6hAlzCcy_mpHCgc2eJ8IiBmPhBtnjgBc7YTyXwFoxX9I0dgbxbDax-D3QRE3s1fKtYjnmRWFUoRY6u6Ps0KTJevaBF7zyAzgTAD8sB6Pj3C6mw357YDSbHWZfKs9YvXOXqoyGHtBq7TVkVsG7dkxAR7FqCLVJvFfSExsEqQ4Lp35S0-9Qh6C1O02jtEdENUiTO0_Gb3RUg1MIgz_5iTOdIJrO-cqycR16mLQt6H0QcytEE7FV7ccIhXALIRpbNxgbR0GTf2fbBN8MxkvQg8qFp68ArRzv2TWmQ_BPtFqd2NsQAD1pwJHMK7gFZ53H1q-zfijb5z7LUPSLTuFonuAdADD4Eya-_ykQe6pxhVkmVhU2MVUWfzBFLym9tpQEJQDOq9MPZ411lIaROiTG5R0qNimlWSUC_DDooHGRDiRu9MGGixxvDB-Yhwx5zc8Ap80FW8-E6zBWap6JO1M-Hi2=w1425-h949-no");
-  
-    min-height: 1000px;
-  
-    background-attachment: fixed;
-    background-position-x: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  #zootext {
+    flex: 0 0 600px;
   }
 }
 
 #Magliozzi {
-  background-color: #f6f6f6;
   padding: 40px 0;
 }
 
 @media screen and (min-width: 768px) {
   #Magliozzi {
-    background-color: #f6f6f6;
     padding: 100px 0;
   }
 }
@@ -59,6 +62,7 @@
   display: flex; 
   align-items: center;
   justify-content: center;
+  padding-top: 50px;
 }
 
 #profilepicture {
@@ -67,19 +71,6 @@
 
   -webkit-filter: drop-shadow(2px 2px 0 grey) drop-shadow(-2px -2px 0 grey);
   filter: drop-shadow(2px 2px 0 grey) drop-shadow(-2px -2px 0 grey);    
-}
-
-#metropicture {
-  margin: auto;
-  width: 80%;
-}
-
-#metropicturesmall {
-  display: none;
-}
-
-#metropicturesmallsmall {
-  display: none;
 }
 
 @media screen and (max-width: 1000px) {
@@ -93,6 +84,22 @@
   }
 }
 
+#metropicture {
+  display: block;
+  margin: auto;
+  width: 80%;
+}
+
+#metropicturesmall {
+  display: none;
+  width: 100%;
+}
+
+#metropicturesmallsmall {
+  display: none;
+  width: 100%;
+}
+
 @media screen and (max-width: 1500px) {
   #metropicture {
     display: none;
@@ -100,7 +107,6 @@
 
   #metropicturesmall {
     display: block;
-    width: 100%;
   }
 
   #metropicturesmallsmall {
@@ -119,90 +125,60 @@
 
   #metropicturesmallsmall {
     display: block;
-    width: 100%;
   }
 }
 
-#Berufserfahrung {
-  background-image: url("wave.jpeg");
-  height: 100%;
-  background-color: #EDEDED;
-  padding: 40px 50px;
+#BerufserfahrungBig {
+  display: none;
+}
 
-  font-size: 15px;
-  color: black;
+#BerufserfahrungSmall {
+  display: block;
+  padding: 20px;
+  font-size: 20px;
+}
 
-  font-weight: normal;
+#BerufserfahrungCollapse {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.6s ease-in-out;
 }
 
 @media screen and (min-width: 768px) {
-  #Berufserfahrung {
-    background-image: url("wave.jpeg");
-    background-color: #cccccc;
-    
-    /* Set a specific height */ 
-    min-height: 900px;
-  
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
-    font-size: 15px;
-    color: black;
-
-    font-weight: bold;
+  #BerufserfahrungBig {
+    display: block;
+    padding: 40px 50px;
+    font-size: 20px;
   }
-}
 
-
-@media screen and (max-width: 400px) {
-  #Berufserfahrung {
-    background: #0087BD;
-    font-weight: normal;
-    color: white;
+  #BerufserfahrungSmall {
+    display: none;
   }
-}
-
-#Spezialisierungen {
-  background-color: #f6f6f6;
-  padding: 40px 50px;
-}
-
-@media screen and (min-width: 768px) {
-  #Spezialisierungen {
-    background-color: #f6f6f6;
-    padding: 100px 50px;
-  }
-}
-
-#grad1{
-  color: black;
-  background-color: blue;
-  background-image: linear-gradient(to bottom right, #0087BD, #00FFFF);
 }
 
 #Kontakt {
-  background-color: #FFFFFF;
-  padding: 40px 50px;
+  display: block;
+  padding: 20px;
   font-size: 20px;
 }
 
 @media screen and (min-width: 768px) {
   #Kontakt {
-    background-color: #FFFFFF;
-    padding: 100px 50px;
-    font-size: 20px;
+    padding: 20px 50px;
   }
 }
 
 #kontaktwrapper {
   display: flex;
+  flex-direction: row;
 }
 
 #map {
   width: 117%;
+}
+
+#map iframe {
+  min-height: 450px
 }
 
 #kontakttext {
@@ -212,7 +188,6 @@
 
 @media screen and (max-width: 768px) {
   #kontaktwrapper {
-    display: flex;
     flex-direction: column;
   }
   
@@ -231,6 +206,7 @@
 
 #textpraxissmall {
   display: none;
+  margin-top: 20px;
 }
 
 @media screen and (max-width: 1000px) {
@@ -240,23 +216,10 @@
 
   #textpraxissmall {
     display: block;
-    margin-top: 20px;
   }
 }
 
-#footer_praxis {
-  background: #0087BD;
+#footerpraxis {
   min-height: 200px;
   padding: 100px 50px;
-}
-
-/* Turn off parallax scrolling for all tablets and phones. */
-@media only screen and (max-width: 1366px) {
-  #Willkommen {
-    background-attachment: scroll;
-  }
-
-  #Berufserfahrung {
-    background-attachment: scroll;
-  }
 }

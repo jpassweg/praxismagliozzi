@@ -24,34 +24,6 @@ $(document).ready(function() {
     });
 })
 
-
-$(window).scroll(function() {
-    if($(window).width() > 1366) {
-        $(".slideopacityanim_wrapper").addClass("slideanim")
-        $(".slideopacityanim_wrapper").removeClass("slideopacityanim_wrapper")
-        
-    } else {
-        $(".slideopacityanim_wrapper").addClass("slideopacityanim")
-        $(".slideopacityanim_wrapper").removeClass("slideopacityanim_wrapper")
-    }
-});
-
-
-$(window).scroll(function() {
-    if($(window).width() > 768) {
-        $(".slideopacityanim").each(function() {
-            var pos = $(this).offset().top;
-        
-            var winTop = $(window).scrollTop();
-            if (pos < winTop + 600) {
-                $(this).addClass("slideopacity");
-            }
-        });
-    }  else {
-        $(".slideopacityanim").removeClass("slideopacityanim")
-    }
-});
-
 $(window).scroll(function() {
     if($(window).width() > 768) {
         $(".slideanim").each(function() {

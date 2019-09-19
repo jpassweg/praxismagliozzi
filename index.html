@@ -9,6 +9,8 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
   <script src="smoothscroll.js"></script>
+  <script src="expand.js"></script>
+  <script src="tabs.js"></script>
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="styles.css">
@@ -31,10 +33,9 @@
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#Willkommen">WILLKOMMEN</a></li>
+            <li><a href="#Zoo">WILLKOMMEN</a></li>
             <li><a href="#Magliozzi">&UumlBER MICH</a></li>
             <li><a href="#Berufserfahrung">BERUFSERFAHRUNG</a></li>
-            <li><a href="#Spezialisierungen">SPEZIALISIERUNGEN</a></li>
             <li><a href="#Kontakt">KONTAKT</a></li>
           </ul>
         </div>
@@ -43,44 +44,43 @@
 
 
   <!-- Title -->
-  <div class="jumbotron text-center" id="jumbotron_title">
+  <div class="text-center" id="jumbotrontitle">
     <h1><strong>Arztpraxis f&uumlr Psychiatrie und Psychotherapie</strong></h1>
-      <p>Medizin und Psychologie kombiniert</p>
-      <a href="#Kontakt" class="btn button_smallcontact">Vereinbare einen Termin</a>
+    <h4>Integration von Medizin und Psychologie</h4>
   </div>
-
 
   <!-- Zoo -->
-  <img id="willkommen-picture-small" src="Zoo_With_Gradient.JPG"></img>
-  <div id="Willkommen">
-      <div id="willkommen-text" class="text-center slideopacityanim_wrapper">
-          Wie mein Foto zeigt, Menschen im Zoo interessieren mich! <br>
-          Sollte das Leben im Zoo sie mit Problemen belasten, emotional destabilisieren und
-          k&oumlrperlich Spuren hinterlassen, so stehe ich Ihnen gerne &aumlrztlich und psychotherapeutisch bei. <br>
-          Ich behandle meine Patienten mit der Integrierten psychiatrisch-psychotherapeutischen
-          Methode (IPPB). <br>
-          Sie umfasst psychotherapeutische Gespr&aumlche und medikament&oumlse
-          Unterst&uumltzung wenn n&oumltig. Hier gilt die Maxime so viel wie n&oumltig, so wenig wie m&oumlglich. <br>
-          Auf ein Erstgespr&aumlch mit Ihnen freue ich mich. <br>
-      </div>
+  <div id="Zoo">
+    <div id="zootext">
+      <br><br>
+      Wie mein Foto zeigt, Menschen im Zoo interessieren mich! <br><br>
+      Sollte das Leben im Zoo sie mit Problemen belasten, emotional destabilisieren und
+      k&oumlrperlich Spuren hinterlassen, so stehe ich Ihnen gerne &aumlrztlich und psychotherapeutisch bei. <br><br>
+      Ich behandle meine Patienten mit der Integrierten psychiatrisch-psychotherapeutischen
+      Methode (IPPB). Sie umfasst psychotherapeutische Gespr&aumlche und medikament&oumlse
+      Unterst&uumltzung wenn n&oumltig. Hier gilt die Maxime so viel wie n&oumltig, so wenig wie m&oumlglich. <br><br>
+      Auf ein Erstgespr&aumlch mit Ihnen freue ich mich.
+    </div>
+    <div id="zoopicture">
+      <img style="width: 100%" src="../praxismagliozzi_images/Zoo.jpg"></img>
+    </div>
   </div>
-
+  
 
   <!-- Profil -->
   <div id="Magliozzi">
     <div class="text-center">
         <h1>&Uumlber Dr. med. Sandro Magliozzi</h1>
-        Facharzt FMH f&uumlr Psychiatrie und Psychotherapie<br>
-        <br><br><br><br>
+        <h4>Facharzt FMH f&uumlr Psychiatrie und Psychotherapie</h4>
     </div>
     <div id="profilewrapper">
       <div class="slideanim">
-          <img src="Sandro3.png" alt="me" id="profilepicture">
+          <img src="../praxismagliozzi_images/Sandro.png" alt="me" id="profilepicture">
       </div>
       <div class="slideanim">
-        <img src="metro horizontal.png" id="metropicture">
-        <img src="metro vertical.png" id="metropicturesmall">
-        <img src="metro vertical small.png" id="metropicturesmallsmall">
+        <img src="../praxismagliozzi_images/metro horizontal.png" id="metropicture">
+        <img src="../praxismagliozzi_images/metro vertical.png" id="metropicturesmall">
+        <img src="../praxismagliozzi_images/metro vertical small.png" id="metropicturesmallsmall">
       </div>
     </div>
   </div>
@@ -88,202 +88,128 @@
 
   <!-- Berufserfahrung -->
   <div id="Berufserfahrung">
-      <h1 class="text-center">Berufserfahrung</h1>
-      <br><br>
-      <h3>Psychotherapeutische Ausbildung:</h3>
-      <ul>
-        <li>1994-2001 <b>Weiterbildungen</b> in Psychodynamischer Psychotherapie</li>
-        <li>1994-2001 <b>Psychotherapeutische Selbsterfahrung und Ausbildung</b>
-          Psychoan alytisch orientierte Gespr&aumlchspsychotherapie</li>
-        <li>1997-1998 <b>&aumlrztlich-psychotherapeutische Intervisionsgruppe</b> in Basel</li>
-      </ul>
-      <h3>&Aumlrztliche Ausbildung in Psychiatrie:</h3>
-      <ul>
-        <li>1994 Psychiatrische Akutstation und chronischgeriatrische Abteilung
-          Kantonale Psychiatrische Klinik in Liestal, Chefarzt Dr. med. T. Cahn</li>
-        <li>1995 Fortbildungsseminar in Notfallmedizin der Arbeitsgemeinschaft
-          Intensivmedizin (Oberstdorf, Deutschland)</li>
-        <li>1996-1997 Gerontopsychiatrische Akutstation des IPD Klinik K&oumlnigsfelden
-          Psychiatrische Dienste Kanton Aargau, Chefarzt Dr. med. M. Etzensberger</li>
-        <li>1998-1999 Akutstation der Geriatrische Universit&aumltsklinik
-          Kantonsspitals Basel, Chefarzt Prof. H.B. St&aumlhelin</li>
-        <li>2000-2001 Akutstation der Klinik St. Urban
-          Psychiatriezentrum Luzerner Landschaft, Chefarzt Dr. med. R. Ineichen</li>
-          <li>2002 Praxiser&oumlffnung</li>
-          <li>Seit 2002 <b>Psychotherapeutische Supervision, Weiter- und Fortbildung</b>
-              Psychoanalytisch orientierte Gespr&aumlchspsychotherapie
-              lic. phil. Psychologe U. Baud Psychotherapeut in Basel</li>
-          <li>
-              2008 <b>Erhalt des Facharzttitels FMH f&uumlr Psychiatrie und Psychotherapie</b>
-          </li>
+    <div class="text-center">
+        <h1>Berufserfahrung und Ausbildung zum Psychiater</h1>
+    </div>
+    <div id="BerufserfahrungBig">
+      <div>
+        <h3>Weiterbildung zum Facharzt FMH f&uumlr Psychiatrie und Psychotherapie</h3>
+        <div>
+          <h4 style="padding-top: 20px">Psychotherapeutische Ausbildung</h4>
+          <ul>
+            <li>1994-2001 <div class="tab"><b>Weiterbildungen</b> in Psychodynamischer Psychotherapie</div></li>
+            <li style="margin-top: -30px">1994-2001 <div class="tab"><b>Psychotherapeutische Selbsterfahrung und Ausbildung</b> Psychoanalytisch orientierte Gespr&aumlchspsychotherapie</div></li>
+            <li style="margin-top: -30px">1997-1998 <div class="tab"><b>&Aumlrztlich-psychotherapeutische Intervisionsgruppe</b> in Basel</div></li>
+          </ul>
+        </div>
+        <div>
+          <h4 style="padding-top: 20px">&Aumlrztliche Ausbildung zum Psychiater</h4>
+          <ul>
+            <li>1994 <div class="tab">Psychiatrische Akutstation und chronischgeriatrische Abteilung Kantonale Psychiatrische Klinik in Liestal, Chefarzt Dr. med. T. Cahn</div></li>
+            <li style="margin-top: -30px">1995 <div class="tab">Fortbildungsseminar in Notfallmedizin der Arbeitsgemeinschaft Intensivmedizin (Oberstdorf, Deutschland)</div></li>
+            <li style="margin-top: -30px">1996-1997 <div class="tab">Gerontopsychiatrische Akutstation des IPD Klinik K&oumlnigsfelden Psychiatrische Dienste Kanton Aargau, Chefarzt Dr. med. M. Etzensberger</div></li>
+            <li style="margin-top: -30px">1998-1999 <div class="tab">Akutstation der Geriatrische Universit&aumltsklinik Kantonsspitals Basel, Chefarzt Prof. H.B. St&aumlhelin</div></li>
+            <li style="margin-top: -30px">2000-2001 <div class="tab">Akutstation der Klinik St. Urban Psychiatriezentrum Luzerner Landschaft, Chefarzt Dr. med. R. Ineichen</div></li>
+          </ul>
+        </div>
+      </div>
+      <div>
+        <h3 style="padding-top: 20px">Arztpraxis f&uumlr Psychiatrie und Psychotherapie in Aarau</h3>
+        <ul>
+          <li>2002 <div class="tab">Praxiser&oumlffnung</div></li>
+          <li style="margin-top: -30px">Seit 2002 <div class="tab"><b>Psychotherapeutische Supervision, Weiter- und Fortbildung</b> Psychoanalytisch orientierte Gespr&aumlchspsychotherapielic. phil. Psychologe U. Baud Psychotherapeut in Basel</div></li>
+          <li style="margin-top: -30px">2008 <div class="tab"><b>Erhalt des Facharzttitels FMH f&uumlr Psychiatrie und Psychotherapie</b></div></li>
         </ul>
-      </ul>
-  </div>
-
-
-  <!-- Services -->
-  <div id="Spezialisierungen" class="container-fluid text-center">
-    <h1>Spezialisierungen</h1>
-    <br>
-    <br><br>
-    <div class="row slideanim">
-        <div class="col-sm-4">
-    <button type="button" class="btn btn-with-image" data-toggle="modal" data-target="#abuse"><img src="abuse.jpg" class="img-circle person" alt="Random Name" width="255" height="255"></button>
-    <h3 class="text-center">Missbrauch</h3><br>
-    <div id="abuse" class="modal fade text-left" role="dialog">
-      <div class="modal-dialog modal-lg">
-
-        <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal">&times;</button>
-            <h3 class="modal-title text-center"><i>Missbrauch</i></h3>
-          </div>
-          <div class="modal-body" style="background-image:url('http://insightfulcare.com/wp-content/uploads/2016/11/bkgrnd.png');background-repeat:repeat;">
-            <h3 class="a text-center" style="color:#0087BD">Obwohl es nicht m&oumlglich ist eine Erinnerung zu l&oumlschen, es <strong>ist</strong> m&oumlglich deren Kontrolle &uumlber Sie zu nehmen!<h3>
-              <br>
-              <h3>Typische Gef&uumlhle und Symptome</h3>
-              <ul>
-                <li>Schuld</li>
-                <li>Schahm</li>
-                <li>Wertlosigkeit</li>
-                <li>Depression</li>
-                <li>Angst</li>
-                <li>Konstante Sorgen</li>
-                <li>Selbsbeschuldigung</li>
-                <li>Emotionale H&oumlhen und Tiefen</li>
-                <li>Isolation</li>
-              </ul>
-              <br>
-              <h3>Wie w&uumlrde Therapie aussehen?</h3>
-              <p>Beginnen &uumlber sexuellen Missbrauch zu sprechen can einsch&uumlchternd sein. Vielleicht
-                haben Sie es eine lange Zeit lang verdr&aumlngt. Vielleicht haben Sie bereits dar&uumlber
-                gesprochen und es war zu schmerzhaft. Sie m&oumlgen das Gef&uumlhl haben, dass wenn Sie
-                dar&uumlber sprechen, Sie die Flut an Emotionen die Sie so lange weggesperrt haben
-                nicht mehr kontrollieren k&oumlnnen. Ich verstehe diese Schwierigkeiten und werde niemals
-                schneller oder weiter gehen als dass Sie m&oumlchten oder m&oumlgen.</p>
-                <br>
-                <p>Diese Art von Therapie involviert das Sprechen &uumlber den Missbrauch und das durcharbeiten
-                  der Gedanken und Verhalten die daraus entstanden sind. Bevor wir mit dem Teil der
-                  Therapie beginnen, werden wir sicherstellen das Sie die n&oumltigen F&aumlhigkeiten und
-                  Werkzeuge besizen. Ich habe Erfahrung mit mehreren Therapien in diesem Feld und werde
-                  mit Ihnen zusammen daran arbeiten die bestgeeignetste und f&uumlr Sie angenehmste zu finden.</p>
-                <br>
-                <h3>Was wenn ich nicht &uumlber den Missbrauch sprechen will?</h3>
-                <br>
-                <p>An was wir in der Therapie arbeiten ist Ihre Entscheidung. Wenn Sie es nicht f&uumlr
-                  n&oumltig halten &uumlber den Missbrauch zu sprechen oder einfach nicht dar&uumlber sprechen wollen
-                  zu diesem Zeitpunkt, k&oumlnnen Sie diese Entscheidung treffen! Sie haben die Kontrolle
-                  &uumlber Ihre Therapie und meine Rolle als Threapeut ist es, Ihnen bei Ihrem Weg Ihre
-                  Ziele zu erreichen beizustehen.</p>
-          </div>
-        </div>
-
       </div>
     </div>
-
-  </div>
-  <div class="col-sm-4">
-    <button type="button" class="btn btn-with-image" data-toggle="modal" data-target="#depression"><img src="depression.jpg" class="img-circle person" alt="Random Name" width="255" height="255"></button>
-    <h3 class="text-center">Depression</h3><br>
-    <div id="depression" class="modal fade text-left" role="dialog">
-      <div class="modal-dialog modal-lg">
-
-        <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal">&times;</button>
-            <h3 class="modal-title text-center"><i>Depression</i></h3>
+    <div id="BerufserfahrungSmall">
+      <div class="text-center">
+          <p> Klicken Sie hier f&uumlr weitere berufliche Ausbildung: </p>
+          <span id="collapseicon" class="glyphicon glyphicon-chevron-down" onclick="expand()"></span>
+      </div>
+      <div id="BerufserfahrungCollapse">
+        <div>
+          <h3>Weiterbildung zum Facharzt FMH f&uumlr Psychiatrie und Psychotherapie</h3>
+          <div>
+            <h4 style="padding-top: 20px">Psychotherapeutische Ausbildung</h4>
+            <ul>
+              <li>1994-2001 <b>Weiterbildungen</b> in Psychodynamischer Psychotherapie</li>
+              <li>1994-2001 <b>Psychotherapeutische Selbsterfahrung und Ausbildung</b> Psychoanalytisch orientierte Gespr&aumlchspsychotherapie</li>
+              <li>1997-1998 <b>&Aumlrztlich-psychotherapeutische Intervisionsgruppe</b> in Basel</li>
+            </ul>
           </div>
-          <div class="modal-body">
-            <h3 class="a text-center" style="color:#0087BD">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
-              <br>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec condimentum eleifend eros vitae dictum. Mauris eleifend elit augue, et maximus erat blandit et. Donec vulputate accumsan mi. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. In viverra eu odio non porttitor. Morbi semper nibh eget nisl dignissim egestas. Nunc sit amet condimentum quam. Nam tempus gravida erat imperdiet lacinia. Sed viverra dui leo, ac congue lorem rhoncus eu. Donec eget ornare orci, et tincidunt nisi. Etiam turpis ipsum, aliquam sed odio sit amet, dapibus tincidunt erat. Nullam eu semper ligula. Vestibulum neque purus, egestas vel dapibus nec, ultrices eget purus. Praesent a tellus ipsum.
-
-Suspendisse viverra nunc placerat mi malesuada maximus. Sed condimentum orci sapien, a pharetra diam condimentum in. Nulla facilisi. Nulla lacinia a nulla vel volutpat. Pellentesque luctus, elit sit amet vehicula feugiat, tellus libero elementum nunc, eget varius purus augue non enim. Morbi id lacus tristique diam fermentum convallis quis in sem. Integer tristique consequat lacus sed rhoncus. Suspendisse tristique arcu eu lacus facilisis mattis. Etiam iaculis leo sit amet condimentum porttitor. Proin vel efficitur diam. Curabitur in metus luctus, facilisis lectus vel, viverra sem. Fusce tristique, leo quis rhoncus volutpat, neque augue eleifend nibh, in viverra risus odio eu est. Aenean faucibus eros vel nibh tincidunt ornare. Cras eu lacus est. Nullam in ligula nec dolor auctor porta scelerisque quis mauris. Pellentesque purus lacus, varius viverra convallis non, porta ut urna.
-<br>
-<h3>Wie w&uumlrde Therapie aussehen?</h3>
-Morbi in odio ac arcu ullamcorper euismod. Aliquam cursus quam augue, id sodales metus consectetur sit amet. Sed eleifend, velit quis ornare vulputate, diam dolor lobortis justo, ac luctus eros mi vitae ipsum. Maecenas ultricies eget arcu in rhoncus. Praesent mattis arcu ac dolor dapibus iaculis. Donec et porta magna, ut efficitur lacus. Mauris efficitur vehicula enim in sollicitudin. Duis a lorem in velit sagittis lacinia ac eu mi. Sed rhoncus massa dui. Duis sed diam sit amet nulla volutpat auctor. Curabitur ut odio scelerisque, sodales mauris vitae, dignissim ipsum.
-<br>
-Sed at rutrum dui. Nullam pharetra lacus et dolor faucibus accumsan. Mauris suscipit semper velit blandit convallis. Sed tempor vel nibh eu accumsan. Suspendisse nec mauris malesuada, placerat diam ac, scelerisque turpis. Aenean sodales dignissim sem, blandit dictum ligula pretium ut. Donec feugiat pretium risus. Mauris sed augue eu tortor luctus feugiat.
-<br>
-Sed lacinia viverra eleifend. Curabitur tempor convallis justo, et ornare nibh egestas tincidunt. Integer quis porta odio. Praesent sollicitudin, elit fringilla condimentum dictum, lectus nisl volutpat turpis, ac bibendum mi lectus id mauris. Quisque nunc orci, ultricies ut iaculis quis, tincidunt vitae nibh. Ut tempor orci a neque iaculis hendrerit. Praesent interdum ante a mi sodales, ullamcorper posuere lectus blandit. Praesent id euismod libero. Nunc eu lorem eleifend, condimentum lorem in, eleifend justo. Sed lacinia tellus sed nisi pulvinar, et condimentum diam tincidunt. Donec pulvinar lectus vitae urna tristique tempor.</p>
+          <div>
+            <h4 style="padding-top: 20px">&Aumlrztliche Ausbildung zum Psychiater</h4>
+            <ul>
+              <li>1994 Psychiatrische Akutstation und chronischgeriatrische Abteilung Kantonale Psychiatrische Klinik in Liestal, Chefarzt Dr. med. T. Cahn</li>
+              <li>1995 Fortbildungsseminar in Notfallmedizin der Arbeitsgemeinschaft Intensivmedizin (Oberstdorf, Deutschland)</li>
+              <li>1996-1997 Gerontopsychiatrische Akutstation des IPD Klinik K&oumlnigsfelden Psychiatrische Dienste Kanton Aargau, Chefarzt Dr. med. M. Etzensberger</li>
+              <li>1998-1999 Akutstation der Geriatrische Universit&aumltsklinik Kantonsspitals Basel, Chefarzt Prof. H.B. St&aumlhelin</li>
+              <li>2000-2001 Akutstation der Klinik St. Urban Psychiatriezentrum Luzerner Landschaft, Chefarzt Dr. med. R. Ineichen</li>
+            </ul>
           </div>
         </div>
-
+        <div>
+          <h3 style="padding-top: 20px">Arztpraxis f&uumlr Psychiatrie und Psychotherapie in Aarau</h3>
+          <ul>
+            <li>2002 Praxiser&oumlffnung</li>
+            <li>Seit 2002 <b>Psychotherapeutische Supervision, Weiter- und Fortbildung</b> Psychoanalytisch orientierte Gespr&aumlchspsychotherapielic. phil. Psychologe U. Baud Psychotherapeut in Basel</li>
+            <li>2008 <b>Erhalt des Facharzttitels FMH f&uumlr Psychiatrie und Psychotherapie</b></li>
+          </ul>
+        </div>    
       </div>
     </div>
-
+    
   </div>
-  <div class="col-sm-4">
-    <button type="button" class="btn btn-with-image" data-toggle="modal" data-target="#addiction"><img src="addiction.jpg" class="img-circle person" alt="Random Name" width="255" height="255"></button>
-    <h3 class="text-center">Sucht</h3><br>
-    <div id="addiction" class="modal fade text-left" role="dialog">
-      <div class="modal-dialog modal-lg">
-
-        <div class="modal-content" id="grad1">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal">&times;</button>
-            <h3 class="modal-title text-center"><i>Sucht</i></h3>
-          </div>
-          <div class="modal-body">
-            <h3 class="a text-center" style="color:white;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec condimentum eleifend eros vitae dictum.</h3>
-              <br>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec condimentum eleifend eros vitae dictum. Mauris eleifend elit augue, et maximus erat blandit et. Donec vulputate accumsan mi. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. In viverra eu odio non porttitor. Morbi semper nibh eget nisl dignissim egestas. Nunc sit amet condimentum quam. Nam tempus gravida erat imperdiet lacinia. Sed viverra dui leo, ac congue lorem rhoncus eu. Donec eget ornare orci, et tincidunt nisi. Etiam turpis ipsum, aliquam sed odio sit amet, dapibus tincidunt erat. Nullam eu semper ligula. Vestibulum neque purus, egestas vel dapibus nec, ultrices eget purus. Praesent a tellus ipsum.
-
-Suspendisse viverra nunc placerat mi malesuada maximus. Sed condimentum orci sapien, a pharetra diam condimentum in. Nulla facilisi. Nulla lacinia a nulla vel volutpat. Pellentesque luctus, elit sit amet vehicula feugiat, tellus libero elementum nunc, eget varius purus augue non enim. Morbi id lacus tristique diam fermentum convallis quis in sem. Integer tristique consequat lacus sed rhoncus. Suspendisse tristique arcu eu lacus facilisis mattis. Etiam iaculis leo sit amet condimentum porttitor. Proin vel efficitur diam. Curabitur in metus luctus, facilisis lectus vel, viverra sem. Fusce tristique, leo quis rhoncus volutpat, neque augue eleifend nibh, in viverra risus odio eu est. Aenean faucibus eros vel nibh tincidunt ornare. Cras eu lacus est. Nullam in ligula nec dolor auctor porta scelerisque quis mauris. Pellentesque purus lacus, varius viverra convallis non, porta ut urna.
-
-Morbi in odio ac arcu ullamcorper euismod. Aliquam cursus quam augue, id sodales metus consectetur sit amet. Sed eleifend, velit quis ornare vulputate, diam dolor lobortis justo, ac luctus eros mi vitae ipsum. Maecenas ultricies eget arcu in rhoncus. Praesent mattis arcu ac dolor dapibus iaculis. Donec et porta magna, ut efficitur lacus. Mauris efficitur vehicula enim in sollicitudin. Duis a lorem in velit sagittis lacinia ac eu mi. Sed rhoncus massa dui. Duis sed diam sit amet nulla volutpat auctor. Curabitur ut odio scelerisque, sodales mauris vitae, dignissim ipsum.
-<h3>Wie w&uumlrde Therapie aussehen?</h3>
-Sed at rutrum dui. Nullam pharetra lacus et dolor faucibus accumsan. Mauris suscipit semper velit blandit convallis. Sed tempor vel nibh eu accumsan. Suspendisse nec mauris malesuada, placerat diam ac, scelerisque turpis. Aenean sodales dignissim sem, blandit dictum ligula pretium ut. Donec feugiat pretium risus. Mauris sed augue eu tortor luctus feugiat.
-
-Sed lacinia viverra eleifend. Curabitur tempor convallis justo, et ornare nibh egestas tincidunt. Integer quis porta odio. Praesent sollicitudin, elit fringilla condimentum dictum, lectus nisl volutpat turpis, ac bibendum mi lectus id mauris. Quisque nunc orci, ultricies ut iaculis quis, tincidunt vitae nibh. Ut tempor orci a neque iaculis hendrerit. Praesent interdum ante a mi sodales, ullamcorper posuere lectus blandit. Praesent id euismod libero. Nunc eu lorem eleifend, condimentum lorem in, eleifend justo. Sed lacinia tellus sed nisi pulvinar, et condimentum diam tincidunt. Donec pulvinar lectus vitae urna tristique tempor.</p>
-          </div>
-        </div>
-
-      </div>
-    </div>
-
-  </div>
-    </div>
-  </div>
-
 
   <!-- Kontakt -->
   <div id="Kontakt">
-    <h1 class="text-center">Kontakt</h1>
+    <div class="text-center">
+      <h1>Kontakt</h1>
+      <br><br>
+    </div>
     <div id=kontaktwrapper>
       <div id="kontakttext">
-        <p>Dr. med. Magliozzi Praktischer Arzt, Psychiatrie u. Psychotherapie </p>
-        <p><span class="glyphicon glyphicon-map-marker"></span> Rathausgasse 17, 5000 Aarau, CH</p>
+        <p>
+          Dr. med. Sandro Magliozzi <br>
+          Facharzt FMH f&uumlr Psychiatrie und Psychotherapie <br>
+          Rathausgasse 17 <br>
+          5000 Aarau <br><br>
+        </p>
         <p><span class="glyphicon glyphicon-phone"></span> Tel: 062 822 94 94</p>
         <p><span class="glyphicon glyphicon-phone"></span> Fax: 062 822 94 94</p>
-        <br>
+        <br><br>
         <p id="textpraxisbig">
-          Seit 2002 betreibt Dr. med. Magliozzi seine Praxis im Mitten der Altstadt von Aarau.
-          F&uumlr einen Termin, rufen Sie bitte die Nummer 062 822 94 94 an. Falls Dr. med. Magliozzi gerade nicht
-          erreichbar ist, wird er Ihnen innert kurzer Zeit zur&uumlckrufen. Sie d&uumlrfen also gerne auf das Telefonband sprechen.
+            Seit 2002 hat Dr. med. Magliozzi seine <br>Praxis in Mitten der Altstadt von Aarau. <br><br>    
+            <b>F&uumlr einen Termin k&oumlnnen Sie gerne die <br>Nummer 062 822 94 94 anrufen.</b> <br><br>
+            Falls Dr. med. Magliozzi gerade nicht <br>erreichbar ist, sprechen Sie bitte auf <br>den Telefonbeantworter. Er wird Sie <br>dann zur&uumlckrufen.<br><br>
+            Besten Dank! <br><br>
+            Beste Gr&uumlsse <br>
+            Sandro Magliozzi <br><br>
         </p>
       </div>
       <div id="map" class="slideanim">
         <h4 class="text-center">Hier findet Ihr mich:</h4>
-        <div>
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2700.
             9857449789038!2d8.04176831583487!3d47.39271101072173!2m3!1f0!2f0!3f0!3m2
             !1i1024!2i768!4f13.1!3m3!1m2!1s0x47903be89f7cb123%3A0x6bae1a9d4a2d55ca!2
             sRathausgasse+17%2C+5000+Aarau!5e0!3m2!1sen!2sch!4v1554323290574!5m2!1sen!2sch"
-            height="450" width="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
-        </div>
+            height="90%" width="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
       </div>
     </div>  
-    <p id="textpraxissmall">
-      Seit 2002 betreibt Dr. med. Magliozzi seine Praxis im Mitten der Altstadt von Aarau.
-      F&uumlr einen Termin, rufen Sie bitte die Nummer 062 822 94 94 an. Falls Dr. med. Magliozzi gerade nicht
-      erreichbar ist, wird er Ihnen innert kurzer Zeit zur&uumlckrufen. Sie d&uumlrfen also gerne auf das Telefonband sprechen.
+    <p id="textpraxissmall" style="text-align: center">
+        Seit 2002 hat Dr. med. Magliozzi seine <br>Praxis in Mitten der Altstadt von Aarau. <br><br>    
+        <b>F&uumlr einen Termin k&oumlnnen Sie gerne die <br>Nummer 062 822 94 94 anrufen.</b> <br><br>
+        Falls Dr. med. Magliozzi gerade nicht <br>erreichbar ist, sprechen Sie bitte auf <br>den Telefonbeantworter. Er wird Sie <br>dann zur&uumlckrufen.<br><br>
+        Besten Dank! <br><br>
+        Beste Gr&uumlsse <br>
+        Sandro Magliozzi <br><br>
     </p>
   </div>
 
 
   <!-- Footer -->
-  <footer class="text-center" id="footer_praxis">
+  <footer class="text-center" id="footerpraxis">
     <a href="#PraxisMagliozzi" title="Nach Oben">
       <span class="glyphicon glyphicon-chevron-up"></span>
     </a><br>
