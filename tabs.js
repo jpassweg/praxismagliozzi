@@ -1,33 +1,18 @@
 function updateTab() {
-    tabsize = 220;
-    screensize = $(window).width();
+    tabsize = 170;
+	screensize = $(window).width();
+	leftPadding = ((screensize - 808) / 2);
+
+	$("#BerufserfahrungBig").css("padding-left", leftPadding + "px");
 
     $(".tab").each(function() { 
-        var pos = $(this).position();
-        //if(tabsize == 0) tabsize = pos.left + 20;
-        var width = $(this).width();
-        var newpos = tabsize - pos.left;
+        var newpos = tabsize;
         $(this).css("left", newpos + "px");
         $(this).css("top", -30 + "px")
-        $(this).css("width", (width - tabsize) + "px");
-    });
+		$(this).css("width", (808 - tabsize) + "px");
+	});
 }
 
-function debounce(func, wait, immediate) {
-	var timeout;
-	return function() {
-		var context = this, args = arguments;
-		var later = function() {
-			timeout = null;
-			if (!immediate) func.apply(context, args);
-		};
-		var callNow = immediate && !timeout;
-		clearTimeout(timeout);
-		timeout = setTimeout(later, wait);
-		if (callNow) func.apply(context, args);
-	};
-};
-
 $(document).ready(updateTab);
-//$(window).on('resize', debounce(updateTab, 200));
+$(window).on('resize', updateTab);
 

@@ -132,6 +132,14 @@
   display: none;
 }
 
+#BerufserfahrungBig li {
+  margin-top: -20px;
+}
+
+#BerufserfahrungBig h3, #BerufserfahrungBig h4 {
+  padding-bottom: 20px;
+}
+
 #BerufserfahrungSmall {
   display: block;
   padding: 20px;
@@ -147,7 +155,7 @@
 @media screen and (min-width: 768px) {
   #BerufserfahrungBig {
     display: block;
-    padding: 40px 50px;
+    padding: 40px 0;
     font-size: 20px;
   }
 
