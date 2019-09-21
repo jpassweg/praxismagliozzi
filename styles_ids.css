@@ -15,7 +15,7 @@
 
 #zootext {
   padding: 20px;
-  font-size: 19px;
+  font-size: 20px;
   text-align: left;
 }
 
@@ -166,13 +166,13 @@
 
 #Kontakt {
   display: block;
-  padding: 20px;
+  padding: 40px 20px;
   font-size: 20px;
 }
 
 @media screen and (min-width: 768px) {
   #Kontakt {
-    padding: 20px 50px;
+    padding: 40px 50px;
   }
 }
 
